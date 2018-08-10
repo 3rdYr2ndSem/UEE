@@ -4,7 +4,7 @@ export default class Footer extends Component {
   render() {
     return (
    
-    <div>
+    <div  style={{ }}>
 
         <div className="col-md-12 navbar-inverse" style={{padding:"20px 0px 0px 0px",backgroundColor:"#2E2E2E"}}>
 

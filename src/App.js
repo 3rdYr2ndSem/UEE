@@ -21,8 +21,12 @@ export default class App extends Component {
     return (
       <div>       
         <Router>
-          <div>
+          <div >
           <Header />
+              <div style={{ margin: "0 auto",
+                  width:"90%",
+                  clear: "both"}}>
+
           <Switch>
               <Route path="/Home" exact static component = {Home} />
               <Route path="/Downloads" exact static component = {Downloads} />
@@ -31,6 +35,7 @@ export default class App extends Component {
               <Route path="/Faq" exact static component = {Faq} />
               <Route path="**" exact static component = {Pagenotfound} />
           </Switch>
+                  </div>
           <Footer />
         </div>
         </Router>

@@ -1,7 +1,10 @@
 body {
-  margin: 0;
+
   padding: 0;
   font-family: sans-serif;
-  background-image: url('./images/green.jpg');
+  background-image: url('./images/i1.jpg');
   color : #FFF;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
 }
