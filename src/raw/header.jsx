@@ -13,7 +13,7 @@ export default class Header extends Component {
                 <div className="container-fluid">
                 <div style={{marginTop:"10px" }}>
                     <div className="navbar-header">
-                        <Link to="/Home"><img src={require("../images/logo.png" )} width="75%" alt="Logo Zoom.lk"/></Link>
+                        <Link to="/"><img src={require("../images/logo.png" )} width="75%" alt="Logo Zoom.lk"/></Link>
                     </div>
                     <ul className="nav navbar-nav navbar-right">
                             <li><a data-toggle="modal" data-target="#myModal1"><span className="glyphicon glyphicon-user"></span> Register</a></li>

@@ -13,7 +13,7 @@ export default class Footer extends Component {
                 <h3>Zoom.lk</h3>
                 <p>zoom.lk is </p>
             </div>
-            <div className="col-md-3" >
+            <div className="col-md-3" style={{border : "2px solid gray",marginLeft:"-10px", marginBottom:"10px"}}>
                 <h3>Contact Us</h3> 
                 <div className="col-md-9" style={{padding:"0px 0px 20px 0px"}} >
                   <form>
