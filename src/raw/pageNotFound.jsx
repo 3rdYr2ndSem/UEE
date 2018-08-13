@@ -10,7 +10,7 @@ export default class  PageNotFound extends Component{
                                                 backgroundImage: "url("+ require("../images/404.jpg")  +")",
                                                 borderRadius:"25px",
                                                 height:"350px",
-                                                width:"350px auto",
+                                                width:"80%",
                                                 backgroundRepeat:"no-repeat",
                                                 backgroundSize:"100% 100%"
                                                 }}>
