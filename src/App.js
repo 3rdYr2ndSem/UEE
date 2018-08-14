@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router ,Switch } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
-import 'react-notifications/lib/notifications.css';
 
 import Header from './raw/header'
 import Footer from './raw/footer'
@@ -26,15 +25,14 @@ export default class App extends Component {
               <div style={{ margin: "0 auto",
                   width:"90%",
                   clear: "both"}}>
-
-          <Switch>
-              <Route path="/Home" exact static component = {Home} />
-              <Route path="/Downloads" exact static component = {Downloads} />
-              <Route path="/Subtitles" exact static component = {Subtitles} />
-              <Route path="/Forum" exact static component = {Forum} />
-              <Route path="/Faq" exact static component = {Faq} />
-              <Route path="**" exact static component = {Pagenotfound} />
-          </Switch>
+                  <Switch>
+                      <Route path="/Home" exact static component = {Home} />
+                      <Route path="/Downloads" exact static component = {Downloads} />
+                      <Route path="/Subtitles" exact static component = {Subtitles} />
+                      <Route path="/Forum" exact static component = {Forum} />
+                      <Route path="/Faq" exact static component = {Faq} />
+                      <Route path="**" exact static component = {Pagenotfound} />
+                  </Switch>
                   </div>
           <Footer />
         </div>
