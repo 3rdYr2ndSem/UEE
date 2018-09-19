@@ -6,7 +6,7 @@ export default class Downloads  extends Component{
         return(
             <div>
                 <h1>Downloads</h1>
-                { console.log("hello world") }
+                    { console.log("hello world") }
             </div>
         );
     }

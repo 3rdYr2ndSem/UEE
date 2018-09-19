@@ -40,6 +40,7 @@ export default class Footer extends Component {
                     </div>
                     <input type="submit" className="btn btn-default"/>
                   </form>
+                  
                 </div>
             </div>
           </div>
