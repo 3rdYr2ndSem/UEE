@@ -1,0 +1,57 @@
+.box{
+    background-color: rgba(255, 255, 255, 0.521);
+    height:200px;
+    border:1px solid #ffffff;
+    margin:50px 10px 50px 0px;
+    color:black;
+    text-align: center;
+   
+}
+
+.boxAd{
+    height:900px;
+   width:20%;
+   margin:50px 00px 0px 30px;
+}
+
+.ButtonDefault{
+    margin:0px 0px 0px 0px;
+}
+
+.doubleButtonDefault{
+    margin:0px 10px 0px 10px;
+    height:50px;
+
+}
+
+@media only screen and (max-width: 500px) {
+    .box{
+        background-color: rgba(255, 255, 255, 0.521);
+        height:100px;
+        width:250px;
+        border:1px solid #ffffff;
+        margin:40px 0px 0px 35px;
+        padding:0px 0px 110px 0px;
+        text-align: center;
+        color:black;
+        
+    }
+
+    .boxAd{
+        background-color:transparent;
+        color:transparent;
+        border:transparent;
+        height:0px;
+    }
+
+    .ButtonDefault{
+        /* margin:0px 0px 0px 0px;
+        padding:0px 0px 0px 0px; */
+    }
+    
+    .doubleButtonDefault{
+        margin:0px 10px 0px 10px;
+        height:auto;
+    }
+    
+}

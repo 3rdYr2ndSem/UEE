@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-import {Link,NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
+
 import Register from '../views/NETHU/Register'
 import Login from '../views/FAZLAN/Login'
 
