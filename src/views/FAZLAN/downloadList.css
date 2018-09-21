@@ -1,0 +1,52 @@
+.listBox{
+
+    height:100px;
+    width:100%;
+    background-color: #ffffffea;
+    margin: -0px 0px 0px 0px;
+    color:black
+}
+
+.listImage{
+    height:100px;
+    width:100px; 
+}
+
+.boxAd{
+   height:900px;
+   width:20%;
+   background-color: rgba(255, 255, 255, 0.521);
+   margin:50px 0px 0px 30px;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .listBox{
+        height:90px;
+        width:130%;
+        background-color: #ffffffea;
+        margin: -0px 0px 10px -40px;
+        color:black;
+    }
+
+    .listBox :hover{
+        background-color: red;
+        
+    }
+
+    .listImage {
+        height: 65px;
+        width: 65px; 
+        border-radius: 50px;
+        margin: 14px 0px 0px -10px;
+        border: 1px solid black
+    }
+
+    .boxAd{
+        background-color:transparent;
+        color:transparent;
+        border:transparent;
+        height:0px;
+    }
+
+}

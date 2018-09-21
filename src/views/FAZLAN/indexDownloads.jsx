@@ -8,18 +8,18 @@ export default class Downloads  extends Component{
         return(
             <div>
                 <div className="col-md-9">
-                    <div className="col-md-3 box">
+                    <div className="col-md-12 box">
                         <h3>Subtitles</h3>
-                        <Link to="/"><div className="btn btn-default ButtonDefault">TV Series</div></Link>
+                        <Link to="/SubtitleTVseries"><div className="btn btn-default ButtonDefault">TV Series</div></Link>
                     </div>
-                    <div className="col-md-3 box">
+                    <div className="col-md-12 box">
                         <h3>Video</h3>
-                        <Link to="/"><div className="btn btn-default ButtonDefault">TV Series</div></Link>
+                        <Link to="/VideoTVSeries"><div className="btn btn-default ButtonDefault">TV Series</div></Link>
                     </div>
-                    <div className="col-md-3 box">
+                    <div className="col-md-12 box">
                         <h3>Audio</h3>
-                        <Link to="/"><div className="btn btn-default doubleButtonDefault">TV Series</div></Link>
-                        <Link to="/"><div className="btn btn-default doubleButtonDefault">TV Series</div></Link>
+                        <Link to="/AudioOriginal"><div className="btn btn-default doubleButtonDefault">Original</div></Link>
+                        <Link to="/AudioRemix"><div className="btn btn-default doubleButtonDefault">Remix</div></Link>
                     </div>
                 </div>
                

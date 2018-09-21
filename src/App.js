@@ -14,6 +14,9 @@ import Subtitles from './views/NIPUNA/indexSubtitles'
 import Faq from './views/NIPUNI/indexFAQ'
 
 
+import SubtitleTVseries from './views/FAZLAN/SubtitlesTvSeries' 
+
+
 export default class App extends Component {
 
   render() {
@@ -31,6 +34,10 @@ export default class App extends Component {
                       <Route path="/Subtitles" exact static component = {Subtitles} />
                       <Route path="/Forum" exact static component = {Forum} />
                       <Route path="/Faq" exact static component = {Faq} />
+                      <Route path="/SubtitleTVseries" exact static component = {SubtitleTVseries} />
+                      <Route path="/VideoTVSeries" exact static component = {Faq} />
+                      <Route path="/AudioOriginal" exact static component = {Faq} />
+                      <Route path="/AudioRemix" exact static component = {Faq} />
                       <Route path="**" exact static component = {Pagenotfound} />
                   </Switch>
                   </div>
