@@ -78,7 +78,7 @@ export default class Header extends Component {
                 
                 <form className="navbar-form navbar-right">
                
-                     <div className="form-group searchBar" style={{marginLeft:"40px"}}>
+                     <div className="form-group searchBarr" style={{marginLeft:"40px"}}>
                      <input type="text" className="form-control" placeholder="Search" />
                     
                     </div>

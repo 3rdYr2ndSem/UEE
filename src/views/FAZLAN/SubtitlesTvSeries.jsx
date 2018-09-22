@@ -9,14 +9,14 @@ export default class SubtitlesTvSeries extends Component{
 
         this.state={
             Subtitles:{
-
+            
             }
         }
     }
 
     render(){
         return(
-            <div>
+            <div className="fazlan">
                 <div className="col-md-12 ">
                     <div className="col-md-12">
                         <form action="">
@@ -26,9 +26,10 @@ export default class SubtitlesTvSeries extends Component{
                         </form> 
                     </div>
                     <div className="col-md-9" style={{marginTop:"50px"}}>
-                        <Link to="/">
+                        <Link to="/MainDownload">
                             <div className ="col-md-12 listBox">
                                 <img src={require('./1.jpg')} className="listImage" alt="image Name" />
+                                <span >Deadpool</span>
                             </div>
                         </Link>
                         <Link to="/">
@@ -52,9 +53,15 @@ export default class SubtitlesTvSeries extends Component{
                             </div>
                         </Link>
                     </div>
-                    <div className ="col-md-2 boxAd">
-                            <h1>hello</h1>
-                    </div>
+                    
+                    <div className="col-md-3">
+                        <h3>Related Downloads</h3>
+                        <img src={require('./11.jpg')} className="relatedImages relatedImageone " alt=""/>
+                        <img src={require('./12.jpg')} className="relatedImages relatedImageTwo" alt=""/>
+                        <img src={require('./13.jpg')} className="relatedImages relatedImageTree" alt=""/>
+                        <img src={require('./14.jpg')} className="relatedImages relatedImageFour" alt=""/>
+                     </div>
+                   
                 </div>
             </div>
         );

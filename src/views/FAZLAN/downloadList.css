@@ -1,6 +1,6 @@
 
 
-.listBox{
+.fazlan .listBox{
 
     height:100px;
     width:100%;
@@ -9,41 +9,82 @@
     color:black
 }
 
-.listImage{
-    height:100px;
-    width:100px; 
+.fazlan .listBox:hover{
+    margin:10px
 }
 
-.searchBar{
+.fazlan .listImage{
+    margin-top: 10px;
+    height:80px;
+    width:80px; 
+    border-radius: 50px
+}
+
+.fazlan .searchBar{
     height: 50px;
-    width:100%;
+    width:50%;
     font-size: 30px;
     color:Gray;
+    margin:10px 0px -20px 10%
 }
 
-.boxAd{
+.fazlan .boxAd{
    height:900px;
    width:20%;
    background-color: rgba(255, 255, 255, 0.521);
    margin:50px 0px 0px 30px;
 }
 
+.fazlan .relatedImages{
+    height:200px;
+    width:130px;  
+    border:5px solid white ;
+    border-radius: 5px
+ }
+
+ .fazlan  .relatedImages:hover{
+    border:5px solid rgb(74, 107, 255) ;
+ }
+
+ .fazlan .relatedImageone{
+    margin: 0px 20px 20px 0px
+}
+
+.fazlan .relatedImageTwo{
+    margin: 0px 0px 20px 0px
+    
+}
+
+.fazlan .relatedImageTree{
+    margin: 0px 20px 0px 0px
+   
+}   
+
+.fazlan .relatedImageFour{
+    margin: 0px 0px 0px 0px
+    
+}
+
 @media only screen and (max-width: 500px) {
     
-    .listBox{
+    .fazlan .listBox{
         height:90px;
         width:130%;
         background-color: #ffffffea;
         margin: -0px 0px 10px -40px;
         color:black;
     }
+    
+    .fazlan .listBox:hover{
+        background-color: black
+    }
 
-    .listBox :hover{
+    .fazlan .listBox :hover{
         background-color: red;
 
     }
 
-    .listImage {
+    .fazlan .listImage {
         height: 65px;
         width: 65px; 
         border-radius: 50px;
@@ -51,11 +92,18 @@
         border: 1px solid black
     }
 
-    .boxAd{
+    .fazlan .boxAd{
         background-color:transparent;
         color:transparent;
         border:transparent;
         height:0px;
     }
-
+ 
+    .fazlan  .searchBar{
+        height: 50px;
+        width:100%;
+        font-size: 30px;
+        color:Gray;
+        margin:0px 0px 0px 0px
+    } 
 }

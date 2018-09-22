@@ -15,6 +15,7 @@ import Faq from './views/NIPUNI/indexFAQ'
 
 
 import SubtitleTVseries from './views/FAZLAN/SubtitlesTvSeries' 
+import MainDownload from './views/FAZLAN/mainDownload'
 
 
 export default class App extends Component {
@@ -35,7 +36,7 @@ export default class App extends Component {
                       <Route path="/Forum" exact static component = {Forum} />
                       <Route path="/Faq" exact static component = {Faq} />
                       <Route path="/SubtitleTVseries" exact static component = {SubtitleTVseries} />
-                      <Route path="/VideoTVSeries" exact static component = {Faq} />
+                      <Route path="/MainDownload" exact static component = {MainDownload} />
                       <Route path="/AudioOriginal" exact static component = {Faq} />
                       <Route path="/AudioRemix" exact static component = {Faq} />
                       <Route path="**" exact static component = {Pagenotfound} />

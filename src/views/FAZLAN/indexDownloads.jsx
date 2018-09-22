@@ -6,7 +6,7 @@ export default class Downloads  extends Component{
 
     render(){
         return(
-            <div>
+            <div className="fazlan">
                 <div className="col-md-9">
                     <div className="col-md-12 box">
                         <h3>Subtitles</h3>
