@@ -1,15 +1,24 @@
+
+
 .listBox{
 
     height:100px;
     width:100%;
     background-color: #ffffffea;
-    margin: -0px 0px 0px 0px;
+    margin: 0px 0px 10px 0px;
     color:black
 }
 
 .listImage{
     height:100px;
     width:100px; 
+}
+
+.searchBar{
+    height: 50px;
+    width:100%;
+    font-size: 30px;
+    color:Gray;
 }
 
 .boxAd{
@@ -31,7 +40,7 @@
 
     .listBox :hover{
         background-color: red;
-        
+
     }
 
     .listImage {

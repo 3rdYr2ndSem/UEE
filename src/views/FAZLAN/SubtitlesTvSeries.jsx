@@ -9,7 +9,7 @@ export default class SubtitlesTvSeries extends Component{
 
         this.state={
             Subtitles:{
-                
+
             }
         }
     }
@@ -18,7 +18,14 @@ export default class SubtitlesTvSeries extends Component{
         return(
             <div>
                 <div className="col-md-12 ">
-                    <div className="col-md-9">
+                    <div className="col-md-12">
+                        <form action="">
+                            <div class="form-group" >
+                                <input type="email" className="form-control searchBar" placeholder="Search" />
+                            </div>
+                        </form> 
+                    </div>
+                    <div className="col-md-9" style={{marginTop:"50px"}}>
                         <Link to="/">
                             <div className ="col-md-12 listBox">
                                 <img src={require('./1.jpg')} className="listImage" alt="image Name" />
