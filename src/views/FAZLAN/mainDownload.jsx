@@ -28,9 +28,9 @@ export default class ManiDownload extends Component{
                     </div>
                     <div className="torentAD">
                         <span style={{color:"white",fontSize:"20px"}}> Please enable your VPN when downloading torrents</span><br/>
-                        <span style={{color:"yellow",fontSize:"20px"}}> Assigned IP address 113.59.213.215, located in <mark style={{backgroundColor:"red",color:"yellow"}}>Colombo, SRI LANKA. </mark>Your ISP can monitor you, unless you use a zero log VPN.</span>
+                        <span style={{color:"yellow",fontSize:"20px"}}> Assigned IP address 113.59.213.215, located in <mark className="markerAd">Colombo, SRI LANKA. </mark>Your ISP can monitor you, unless you use a zero log VPN.</span>
                         <center>
-                            <button className="btn btn-success downloadButton"> <i className="fa fa-download"></i> Get NordVPN</button>
+                            <button className="btn btn-success downloadButtonAd"> <i className="fa fa-download"></i> Get NordVPN</button>
                         </center>
                     </div>
                     <div className="movieDescription">
