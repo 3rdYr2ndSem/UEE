@@ -20,7 +20,7 @@
     border-radius: 50px
 }
 
-.fazlan .searchBar{
+.nipuna .searchBar{
     height: 50px;
     width:50%;
     font-size: 30px;
@@ -35,33 +35,35 @@
    margin:50px 0px 0px 30px;
 }
 
-.fazlan .relatedImages{
-    height:400px;
-    width:230px;  
+.nipuna .relatedImages{
+    height:280px;
+    width:200px;  
     border:5px solid white ;
     border-radius: 5px
  }
 
- .fazlan  .relatedImages:hover{
+ .nipuna  .relatedImages:hover{
     border:5px solid rgb(74, 107, 255) ;
+    height:290px;
+    width:210px;
  }
 
- .fazlan .relatedImageone{
-    margin: 0px 20px 20px 0px
+ .nipuna .relatedImageone{
+    margin: 20px 20px 20px 0px
 }
 
-.fazlan .relatedImageTwo{
-    margin: 0px 0px 20px 0px
+.nipuna .relatedImageTwo{
+    margin: 20px 0px 20px 20px
     
 }
 
-.fazlan .relatedImageTree{
-    margin: 0px 20px 0px 0px
+.nipuna .relatedImageTree{
+    margin: 0px 0px 0px 40px
    
 }   
 
-.fazlan .relatedImageFour{
-    margin: 0px 0px 0px 0px
+.nipuna .relatedImageFour{
+    margin: 0px 0px 0px 40px
     
 }
 
