@@ -10,7 +10,7 @@ import Pagenotfound from './raw/pageNotFound'
 import Downloads from './views/FAZLAN/indexDownloads'
 import Forum from './views/ASHANSA/indexForum'
 import Home from './views/NETHU/indexHome'
-import Subtitles from './views/NIPUNA/indexSubtitles'
+import Subtitles from './views/NIPUNA/subtitlesMainPage'
 import Faq from './views/NIPUNI/indexFAQ'
 
 
