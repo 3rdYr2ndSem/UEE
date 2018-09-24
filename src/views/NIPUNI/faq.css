@@ -1,0 +1,78 @@
+.topBox{
+    width: 100%;
+        padding: 10px;
+        text-align: center
+       
+}
+
+.nipuni .box{
+    background-color: rgba(255, 255, 255, 0.521);
+    height:200px;
+    border:1px solid #ffffff;
+    margin:50px 10px 10px 0px;
+    color:black;
+    text-align: center;
+   
+}
+
+.nipuni .boxAd{
+   background-color: rgba(255, 255, 255, 0.521);
+   border:1px solid #ffffff;
+   height:900px;
+   width:20%;
+   margin:50px 00px 0px 30px;
+}
+
+.nipuni .ButtonDefault{
+    margin:0px 0px 0px 0px;
+}
+
+.nipuni .doubleButtonDefault{
+    margin:0px 10px 0px 10px;
+    height:50px;
+
+}
+
+.nipuni .searchButton{
+    width:500px;
+    height:75px;
+    font-size: 25px
+}
+
+.nipuni .showMoreButton{
+    width:50px;
+    height:50px;
+    font-size: 25px
+}
+
+@media only screen and (max-width: 500px) {
+    .nipuni .box{
+        background-color: rgba(255, 255, 255, 0.521);
+        height:100px;
+        width:250px;
+        border:1px solid #ffffff;
+        margin:40px 0px 0px 35px;
+        padding:0px 0px 110px 0px;
+        text-align: center;
+        color:black;
+        
+    }
+
+    .nipuni .boxAd{
+        background-color:transparent;
+        color:transparent;
+        border:transparent;
+        height:0px;
+    }
+
+    .nipuni .ButtonDefault{
+        /* margin:0px 0px 0px 0px;
+        padding:0px 0px 0px 0px; */
+    }
+    
+    .nipuni .doubleButtonDefault{
+        margin:0px 10px 0px 10px;
+        height:auto;
+    }
+    
+}

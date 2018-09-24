@@ -38,9 +38,9 @@ export default class ManiDownload extends Component{
                          protect Russel from Cable (Josh Brolin), a no-nonsense, dangerous cyborg from the future and Deadpool must learn the most important lesson of all, to be part of a family again.
                             <br/>
                         After surviving a near fatal bovine attack, a disfigured cafeteria chef (Wade Wilson) struggles to fulfill his dream of becoming Mayberry's hottest bartender while also learning 
-                        to cope with his lost sense of taste. Searching to regain his spice for life, as well as a flux capacitor, Wade must battle ninjas, the Yakuza, and a pack of sexually aggressive 
-                        canines, as he journeys around the world to discover the importance of family, friendship, and flavor - finding a new taste for adventure and earning the coveted coffee mug title
-                         of World's Best Lover.
+                        to cope with his lost sense of taste. Searching to regain his spice for life, as well as a flux capacitor, Wade mug a new taste for adventure and earning the coveted coffee mug title
+                         of World's Best Lover.st battle ninjas, the Yakuza, and a pack of sexually aggressive 
+                        canines, as he journeys around the world to discover the importance of family, friendship, and flavor - findin
                     </div>
                 </div>
                 <div className="col-md-3">
