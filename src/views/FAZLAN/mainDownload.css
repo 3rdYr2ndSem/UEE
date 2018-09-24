@@ -1,4 +1,4 @@
-.fazlan .downloadImage{
+.fazlanMain .downloadImage{
     height:450px;
     width:296px;
     border: 5px solid white;
@@ -6,43 +6,43 @@
     margin-top:20px
 }
 
-.fazlan .downloadButton{
+.fazlanMain .downloadButton{
     width:200px;
     height:50px;
     font-size: 25px
 }
 
-.fazlan .downloadButtonAd{
+.fazlanMain .downloadButtonAd{
     width:200px;
     height:50px;
     font-size: 25px
 }
 
-.fazlan .headerText{
+.fazlanMain .headerText{
     font-size: 80px;
     font-weight: 50px
 }
 
-.fazlan .Stars{
+.fazlanMain .Stars{
     font-size:30px;
     width:35px;
 }
 
-.fazlan .starChecked{
+.fazlanMain .starChecked{
     color:gold;
 }
 
-.fazlan .allStar{
+.fazlanMain .allStar{
     margin: 20px 80px 0px 0px
 }
 
-.fazlan .views{
+.fazlanMain .views{
     font-size:20px;
     width: 20px;
     margin:20px 0px 0px 0px;
 }
 
-.fazlan .torentAD{
+.fazlanMain .torentAD{
     background-color: rgba(0, 0, 0, 0.801);
     border:1px solid rgb(46, 46, 182);
     border-radius: 10px;
@@ -52,42 +52,42 @@
 }
 
 
-.fazlan .markerAd{
+.fazlanMain .markerAd{
     background-color:red;
     color:yellow;
 }
 
-.fazlan .relatedImages{
+.fazlanMain .relatedImages{
     height:200px;
     width:130px;  
     border:5px solid white ;
     border-radius: 5px
  }
 
- .fazlan  .relatedImages:hover{
+ .fazlanMain  .relatedImages:hover{
     border:5px solid rgb(74, 107, 255) ;
  }
 
- .fazlan .relatedImageone{
+ .fazlanMain .relatedImageone{
     margin: 0px 20px 20px 0px
 }
 
-.fazlan .relatedImageTwo{
+.fazlanMain .relatedImageTwo{
     margin: 0px 0px 20px 0px
     
 }
 
-.fazlan .relatedImageTree{
+.fazlanMain .relatedImageTree{
     margin: 0px 20px 0px 0px
    
 }   
 
-.fazlan .relatedImageFour{
+.fazlanMain .relatedImageFour{
     margin: 0px 0px 0px 0px
     
 }
 
-.fazlan .movieDescription{
+.fazlanMain .movieDescription{
     background-color: rgba(0, 0, 0, 0.575);
     color: #ffffff;
     padding: 30px;
@@ -99,7 +99,7 @@
 
 @media only screen and (max-width: 500px) {
 
-    .fazlan .downloadImage{
+    .fazlanMain .downloadImage{
         height:200px;
         width:150px;
         border: 5px solid white;
@@ -107,47 +107,47 @@
         margin-top:20px
     }
     
-    .fazlan .downloadButton{
+    .fazlanMain .downloadButton{
         width:150px;
         height:45px;
         font-size: 15px;
         margin: -20px 0px 0px 160px;
     }
 
-    .fazlan .downloadButtonAd{
+    .fazlanMain .downloadButtonAd{
         width:0px;
         height:0px;
         background-color: transparent;
         border:transparent
     }
     
-    .fazlan .headerText{
+    .fazlanMain .headerText{
         font-size: 25px;
         font-weight: 30px;
         margin: -190px 0px 30px 160px;
     }
     
-    .fazlan .Stars{
+    .fazlanMain .Stars{
         font-size:15px;
         width:20px;
     }
     
-    .fazlan .starChecked{
+    .fazlanMain .starChecked{
         color:gold;
     }
     
-    .fazlan .allStar{
+    .fazlanMain .allStar{
         margin: 15px 80px 0px 160px;
         width: 100px;
     }
     
-    .fazlan .views{
+    .fazlanMain .views{
         font-size:15px;
         width: 20px;
         margin:15px 0px 0px 160px;
     }
     
-    .fazlan .torentAD{
+    .fazlanMain .torentAD{
         -webkit-text-fill-color: transparent;  
         background-color: transparent;
         border:1px solid transparent;
@@ -155,42 +155,42 @@
           
     }
 
-    .fazlan .markerAd{
+    .fazlanMain .markerAd{
         background-color:transparent;
         color:transparent;
     }
     
-    .fazlan .relatedImages{
+    .fazlanMain .relatedImages{
         height:200px;
         width:130px;  
         border:5px solid white ;
         border-radius: 5px
      }
     
-     .fazlan  .relatedImages:hover{
+     .fazlanMain  .relatedImages:hover{
         border:5px solid rgb(74, 107, 255) ;
      }
     
-     .fazlan .relatedImageone{
+     .fazlanMain .relatedImageone{
         margin: 0px 20px 20px 0px
     }
     
-    .fazlan .relatedImageTwo{
+    .fazlanMain .relatedImageTwo{
         margin: 0px 0px 20px 0px
         
     }
     
-    .fazlan .relatedImageTree{
+    .fazlanMain .relatedImageTree{
         margin: 0px 20px 20px 0px
        
     }   
     
-    .fazlan .relatedImageFour{
+    .fazlanMain .relatedImageFour{
         margin: 0px 0px 20px 0px
         
     }
     
-    .fazlan .movieDescription{
+    .fazlanMain .movieDescription{
         background-color: rgba(0, 0, 0, 0.575);
         color: #ffffff;
         padding: 30px;

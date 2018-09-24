@@ -1,6 +1,6 @@
 
 
-.fazlan .listBox{
+.fazlanList .listBox{
 
     height:100px;
     width:100%;
@@ -9,18 +9,18 @@
     color:black
 }
 
-.fazlan .listBox:hover{
+.fazlanList .listBox:hover{
     margin:10px
 }
 
-.fazlan .listImage{
+.fazlanList .listImage{
     margin-top: 10px;
     height:80px;
     width:80px; 
     border-radius: 50px
 }
 
-.fazlan .searchBar{
+.fazlanList .searchBar{
     height: 50px;
     width:50%;
     font-size: 30px;
@@ -28,46 +28,46 @@
     margin:10px 0px -20px 10%
 }
 
-.fazlan .boxAd{
+.fazlanList .boxAd{
    height:900px;
    width:20%;
    background-color: rgba(255, 255, 255, 0.521);
    margin:50px 0px 0px 30px;
 }
 
-.fazlan .relatedImages{
+.fazlanList .relatedImages{
     height:200px;
     width:130px;  
     border:5px solid white ;
     border-radius: 5px
  }
 
- .fazlan  .relatedImages:hover{
+ .fazlanList  .relatedImages:hover{
     border:5px solid rgb(74, 107, 255) ;
  }
 
- .fazlan .relatedImageone{
+ .fazlanList .relatedImageone{
     margin: 0px 20px 20px 0px
 }
 
-.fazlan .relatedImageTwo{
+.fazlanList .relatedImageTwo{
     margin: 0px 0px 20px 0px
     
 }
 
-.fazlan .relatedImageTree{
+.fazlanList .relatedImageTree{
     margin: 0px 20px 0px 0px
    
 }   
 
-.fazlan .relatedImageFour{
+.fazlanList .relatedImageFour{
     margin: 0px 0px 0px 0px
     
 }
 
 @media only screen and (max-width: 500px) {
     
-    .fazlan .listBox{
+    .fazlanList .listBox{
         height:90px;
         width:130%;
         background-color: #ffffffea;
@@ -75,16 +75,16 @@
         color:black;
     }
     
-    .fazlan .listBox:hover{
+    .fazlanList .listBox:hover{
         background-color: black
     }
 
-    .fazlan .listBox :hover{
+    .fazlanList .listBox :hover{
         background-color: red;
 
     }
 
-    .fazlan .listImage {
+    .fazlanList .listImage {
         height: 65px;
         width: 65px; 
         border-radius: 50px;
@@ -92,14 +92,14 @@
         border: 1px solid black
     }
 
-    .fazlan .boxAd{
+    .fazlanList .boxAd{
         background-color:transparent;
         color:transparent;
         border:transparent;
         height:0px;
     }
  
-    .fazlan  .searchBar{
+    .fazlanList  .searchBar{
         height: 50px;
         width:100%;
         font-size: 30px;

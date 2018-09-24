@@ -5,7 +5,7 @@ export default class ManiDownload extends Component{
 
     render(){
         return(
-            <div className="fazlan">
+            <div className="fazlanMain">
                 <div className="col-md-3">
                    <img src={require('./15.jpg')} alt="" className="downloadImage"/>
                    
@@ -36,11 +36,7 @@ export default class ManiDownload extends Component{
                     <div className="movieDescription">
                         After losing the love of his life, 4th wall-breaking mercenary Wade Wilson aka Deadpool (Ryan Reynolds) must protect Russel (Julian Dennison) must assemble a team of mutants and
                          protect Russel from Cable (Josh Brolin), a no-nonsense, dangerous cyborg from the future and Deadpool must learn the most important lesson of all, to be part of a family again.
-                            <br/>
-                        After surviving a near fatal bovine attack, a disfigured cafeteria chef (Wade Wilson) struggles to fulfill his dream of becoming Mayberry's hottest bartender while also learning 
-                        to cope with his lost sense of taste. Searching to regain his spice for life, as well as a flux capacitor, Wade must battle ninjas, the Yakuza, and a pack of sexually aggressive 
-                        canines, as he journeys around the world to discover the importance of family, friendship, and flavor - finding a new taste for adventure and earning the coveted coffee mug title
-                         of World's Best Lover.
+                       
                     </div>
                 </div>
                 <div className="col-md-3">
