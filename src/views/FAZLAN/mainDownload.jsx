@@ -14,7 +14,9 @@ export default class ManiDownload extends Component{
                     <div className="headerText">
                         <span>Deadpool 2</span>
                     </div>
-                    <button className="btn btn-success downloadButton"> <i className="fa fa-download"></i> Dowload</button>
+                    
+                   <a href="./Login.jsx" download> <button className="btn btn-success downloadButton" > <i className="fa fa-download"></i> Download</button> </a>
+                    
                     <div className=" allStar">
                         <span class="fa fa-star Stars starChecked"></span>
                         <span class="fa fa-star Stars starChecked"></span>
@@ -30,7 +32,7 @@ export default class ManiDownload extends Component{
                         <span style={{color:"white",fontSize:"20px"}}> Please enable your VPN when downloading torrents</span><br/>
                         <span style={{color:"yellow",fontSize:"20px"}}> Assigned IP address 113.59.213.215, located in <mark className="markerAd">Colombo, SRI LANKA. </mark>Your ISP can monitor you, unless you use a zero log VPN.</span>
                         <center>
-                            <button className="btn btn-success downloadButtonAd"> <i className="fa fa-download"></i> Get NordVPN</button>
+                            <button type="submit" className="btn btn-success downloadButtonAd"> <i className="fa fa-download"></i> Get NordVPN</button>
                         </center>
                     </div>
                     <div className="movieDescription">

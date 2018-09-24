@@ -91,7 +91,7 @@
     }
 
     .fazlanIndex .ButtonDefault{
-    
+        
         font-size:16px;
         padding:10px
         
@@ -101,6 +101,8 @@
         margin:0px 0px 0px 10px;
         font-size:16px;
         padding:10px;
+        background: lightgray;
+        color:black;
         
     }
     
