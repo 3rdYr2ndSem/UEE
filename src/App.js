@@ -10,12 +10,14 @@ import Pagenotfound from './raw/pageNotFound'
 import Downloads from './views/FAZLAN/indexDownloads'
 import Forum from './views/ASHANSA/indexForum'
 import Home from './views/NETHU/indexHome'
-import Subtitles from './views/NIPUNA/indexSubtitles'
+import Subtitles from './views/NIPUNA/subtitlesMainPage'
 import Faq from './views/NIPUNI/indexFAQ'
 
 
 import SubtitleTVseries from './views/FAZLAN/SubtitlesTvSeries' 
 import MainDownload from './views/FAZLAN/mainDownload'
+
+import moviePage from './views/NIPUNA/moviePage'
 
 
 export default class App extends Component {
@@ -39,7 +41,9 @@ export default class App extends Component {
                       <Route path="/MainDownload" exact static component = {MainDownload} />
                       <Route path="/AudioOriginal" exact static component = {Faq} />
                       <Route path="/AudioRemix" exact static component = {Faq} />
+                      <Route path="/MoviePage" exact static component = {moviePage} />
                       <Route path="**" exact static component = {Pagenotfound} />
+                      
                   </Switch>
                   </div>
           <Footer />

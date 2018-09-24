@@ -1,0 +1,111 @@
+
+
+.fazlan .listBox{
+
+    height:100px;
+    width:100%;
+    background-color: #ffffffea;
+    margin: 0px 0px 10px 0px;
+    color:black
+}
+
+.fazlan .listBox:hover{
+    margin:10px
+}
+
+.fazlan .listImage{
+    margin-top: 10px;
+    height:80px;
+    width:80px; 
+    border-radius: 50px
+}
+
+.nipuna .searchBar{
+    height: 50px;
+    width:50%;
+    font-size: 30px;
+    color:Gray;
+    margin:10px 0px -20px 10%
+}
+
+.fazlan .boxAd{
+   height:900px;
+   width:20%;
+   background-color: rgba(255, 255, 255, 0.521);
+   margin:50px 0px 0px 30px;
+}
+
+.nipuna .relatedImages{
+    height:280px;
+    width:200px;  
+    border:5px solid white ;
+    border-radius: 5px
+ }
+
+ .nipuna  .relatedImages:hover{
+    border:5px solid rgb(74, 107, 255) ;
+    height:290px;
+    width:210px;
+ }
+
+ .nipuna .relatedImageone{
+    margin: 20px 20px 20px 0px
+}
+
+.nipuna .relatedImageTwo{
+    margin: 20px 0px 20px 0px
+    
+}
+
+.nipuna .relatedImageTree{
+    margin: 20px 0px 0px 0px
+   
+}   
+
+.nipuna .relatedImageFour{
+    margin: 20px 0px 0px 0px
+    
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .fazlan .listBox{
+        height:90px;
+        width:130%;
+        background-color: #ffffffea;
+        margin: -0px 0px 10px -40px;
+        color:black;
+    }
+    
+    .fazlan .listBox:hover{
+        background-color: black
+    }
+
+    .fazlan .listBox :hover{
+        background-color: red;
+
+    }
+
+    .fazlan .listImage {
+        height: 65px;
+        width: 65px; 
+        border-radius: 50px;
+        margin: 14px 0px 0px -10px;
+        border: 1px solid black
+    }
+
+    .fazlan .boxAd{
+        background-color:transparent;
+        color:transparent;
+        border:transparent;
+        height:0px;
+    }
+ 
+    .fazlan  .searchBar{
+        height: 50px;
+        width:100%;
+        font-size: 30px;
+        color:Gray;
+        margin:0px 0px 0px 0px
+    } 
+}
