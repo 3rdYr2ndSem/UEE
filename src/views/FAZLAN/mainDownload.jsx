@@ -115,6 +115,11 @@ export default class ManiDownload extends Component{
                         <img src={require('./images/movies/12.jpg')} className="relatedImages relatedImageTwo" alt=""/>
                         <img src={require('./images/movies/13.jpg')} className="relatedImages relatedImageTree" alt=""/>
                         <img src={require('./images/movies/14.jpg')} className="relatedImages relatedImageFour" alt=""/>
+                        <h3>Most Popular Video songs</h3>
+                        <img src={require('./images/video/26.jpg')} className="relatedImages relatedImageone " alt=""/>
+                        <img src={require('./images/video/22.jpg')} className="relatedImages relatedImageTwo" alt=""/>
+                        <img src={require('./images/video/23.jpg')} className="relatedImages relatedImageTree" alt=""/>
+                        <img src={require('./images/video/24.jpg')} className="relatedImages relatedImageFour" alt=""/>
                 </div>
                 <div className="col-md-12">
  

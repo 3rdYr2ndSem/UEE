@@ -4,27 +4,27 @@ import queryString from 'query-string' ;
 import './downloadList.css'
 
 
-export default class AudioList extends Component{
+export default class OriginalAudioList extends Component{
 
     constructor(props){
         super(props)
 
         this.state={
             Subtitles:[ 
-                        {"name":"Amma (Remix)","image":"21.jpg"},
-                        {"name":"Purudu Thanikama (Remix)","image":"22.jpg"},
-                        {"name":"Ithihasagatha Premayak (Remix)","image":"23.jpg"}, 
-                        {"name":"Kanyawi (Remix)","image":"24.jpg"}, 
-                        {"name":"Hitha Mage Hadaganna (Remix)","image":"25.jpg"} ,
-                        {"name":"Himikari (Remix)","image":"26.jpg"}, 
-                        {"name":"Oba Warade Pataleddi (Remix)","image":"27.jpg"}, 
-                        {"name":"Me Ape Awasanayayi (Remix)","image":"21.jpg"},
-                        {"name":"Purudu Thanikama (Remix)","image":"22.jpg"},
-                        {"name":"Ithihasagatha Premayak (Remix)","image":"23.jpg"}, 
-                        {"name":"Kanyawi (Remix)","image":"24.jpg"},  
-                        {"name":"Himikari (Remix)","image":"26.jpg"}, 
-                        {"name":"Oba Warade Pataleddi (Remix)","image":"27.jpg"}, 
-                        {"name":"Me Ape Awasanayayi (Remix)","image":"21.jpg"},
+                        {"name":"Amma ","image":"21.jpg"},
+                        {"name":"Purudu Thanikama ","image":"22.jpg"},
+                        {"name":"Ithihasagatha Premayak ","image":"23.jpg"}, 
+                        {"name":"Kanyawi ","image":"24.jpg"}, 
+                        {"name":"Hitha Mage Hadaganna ","image":"25.jpg"} ,
+                        {"name":"Himikari ","image":"26.jpg"}, 
+                        {"name":"Oba Warade Pataleddi ","image":"27.jpg"}, 
+                        {"name":"Me Ape Awasanayayi ","image":"21.jpg"},
+                        {"name":"Purudu Thanikama ","image":"22.jpg"},
+                        {"name":"Ithihasagatha Premayak ","image":"23.jpg"}, 
+                        {"name":"Kanyawi ","image":"24.jpg"},  
+                        {"name":"Himikari ","image":"26.jpg"}, 
+                        {"name":"Oba Warade Pataleddi ","image":"27.jpg"}, 
+                        {"name":"Me Ape Awasanayayi ","image":"21.jpg"},
                     ],
             path:'',
             search : ''
@@ -85,7 +85,7 @@ export default class AudioList extends Component{
                         <img src={require('./images/video/24.jpg')} className="relatedImages relatedImageTree" alt=""/>
                         <img src={require('./images/video/27.jpg')} className="relatedImages relatedImageFour" alt=""/>
 
-                        <h3>Most Popular Video songs</h3>
+                        <h3>Most Popular Downloads</h3>
                         <img src={require('./images/video/26.jpg')} className="relatedImages relatedImageone " alt=""/>
                         <img src={require('./images/video/22.jpg')} className="relatedImages relatedImageTwo" alt=""/>
                         <img src={require('./images/video/23.jpg')} className="relatedImages relatedImageTree" alt=""/>

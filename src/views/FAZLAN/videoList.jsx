@@ -9,7 +9,7 @@ export default class VideoList extends Component{
         super(props)
 
         this.state={
-            Subtitles:[{"name":"Amma","image":"21.jpg"},
+            Subtitles:[{"name":"Amma ","image":"21.jpg"},
                        {"name":"Purudu Thanikama","image":"22.jpg"},
                        {"name":"Ithihasagatha Premayak","image":"23.jpg"}, 
                        {"name":"Kanyawi","image":"24.jpg"}, 
@@ -79,16 +79,16 @@ export default class VideoList extends Component{
                     
                     <div className="col-md-3">
                         <h3>Latest Downloads</h3>
-                        <img src={require('./images/movies/11.jpg')} className="relatedImages relatedImageone " alt=""/>
-                        <img src={require('./images/movies/12.jpg')} className="relatedImages relatedImageTwo" alt=""/>
-                        <img src={require('./images/movies/13.jpg')} className="relatedImages relatedImageTree" alt=""/>
-                        <img src={require('./images/movies/14.jpg')} className="relatedImages relatedImageFour" alt=""/>
+                        <img src={require('./images/video/21.jpg')} className="relatedImages relatedImageone " alt=""/>
+                        <img src={require('./images/video/25.jpg')} className="relatedImages relatedImageTwo" alt=""/>
+                        <img src={require('./images/video/24.jpg')} className="relatedImages relatedImageTree" alt=""/>
+                        <img src={require('./images/video/27.jpg')} className="relatedImages relatedImageFour" alt=""/>
 
-                        <h3>Most Popular Downloads</h3>
-                        <img src={require('./images/movies/11.jpg')} className="relatedImages relatedImageone " alt=""/>
-                        <img src={require('./images/movies/12.jpg')} className="relatedImages relatedImageTwo" alt=""/>
-                        <img src={require('./images/movies/13.jpg')} className="relatedImages relatedImageTree" alt=""/>
-                        <img src={require('./images/movies/14.jpg')} className="relatedImages relatedImageFour" alt=""/>
+                        <h3>Most Popular Video songs</h3>
+                        <img src={require('./images/video/26.jpg')} className="relatedImages relatedImageone " alt=""/>
+                        <img src={require('./images/video/22.jpg')} className="relatedImages relatedImageTwo" alt=""/>
+                        <img src={require('./images/video/23.jpg')} className="relatedImages relatedImageTree" alt=""/>
+                        <img src={require('./images/video/24.jpg')} className="relatedImages relatedImageFour" alt=""/>
                      </div>
                    
                 </div>

@@ -18,6 +18,7 @@ import SubtitleTVseries from './views/FAZLAN/SubtitlesTvSeries'
 import MainDownload from './views/FAZLAN/mainDownload'
 import VideoLsit from './views/FAZLAN/videoList'
 import AudioList from './views/FAZLAN/AudioList'
+import OriginalAudio from './views/FAZLAN/OriginalAudio'
 
 import moviePage from './views/NIPUNA/moviePage'
 
@@ -43,6 +44,7 @@ export default class App extends Component {
                       <Route path="/MainDownload" exact static component = {MainDownload} />
                       <Route path="/VideoLsit" exact static component = {VideoLsit} />
                       <Route path="/AudioList" exact static component = {AudioList} />
+                      <Route path="/OriginalAudioList" exact static component = {OriginalAudio} />
                       <Route path="/MoviePage" exact static component = {moviePage} />
                       <Route path="**" exact static component = {Pagenotfound} />
                       
