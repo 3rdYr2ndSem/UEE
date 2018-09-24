@@ -24,7 +24,7 @@ export default class Downloads  extends Component{
                 </div>
                
                {/* recent, popular */}
-                <div className="col-md-3 box boxAd">
+                    <div className="col-md-3 box boxAd">
 
                 </div>
             </div>
