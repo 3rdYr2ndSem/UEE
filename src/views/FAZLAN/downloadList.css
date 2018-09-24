@@ -10,7 +10,7 @@
 }
 
 .fazlanList .listBox:hover{
-    
+    margin:6px;
     width:100%;
 }
 
@@ -70,6 +70,12 @@
     color:white;
     margin:0px 0px 50px 0px;
     font-size: 25px
+}
+
+.fazlanList .listName{
+    font-size:22px;
+    margin:-50px 0px 0px 100px;
+    
 }
 
 @media only screen and (max-width: 500px) {

@@ -3,25 +3,26 @@ import {Link} from 'react-router-dom'
 import './downloadList.css'
 import queryString from 'query-string' ;
 
-export default class SubtitlesTvSeries extends Component{
+export default class VideoList extends Component{
 
     constructor(props){
         super(props)
 
         this.state={
-            Subtitles:[{"name":"Deadpool","image":"1.jpg"},
-                       {"name":"solo","image":"12.jpg"},
-                       {"name":"Avengers","image":"13.jpg"}, 
-                       {"name":"starwars","image":"14.jpg"}, 
-                       {"name":"one","image":"15.jpg"} ,
-                       {"name":"Avengers","image":"13.jpg"}, 
-                       {"name":"starwars","image":"14.jpg"}, 
-                       {"name":"Deadpool","image":"1.jpg"},
-                       {"name":"solo","image":"12.jpg"},
-                       {"name":"Deadpool","image":"1.jpg"},
-                       {"name":"solo","image":"12.jpg"},
-                       {"name":"Avengers","image":"13.jpg"}, 
-                       {"name":"starwars","image":"14.jpg"}, 
+            Subtitles:[{"name":"Amma","image":"21.jpg"},
+                       {"name":"Purudu Thanikama","image":"22.jpg"},
+                       {"name":"Ithihasagatha Premayak","image":"23.jpg"}, 
+                       {"name":"Kanyawi","image":"24.jpg"}, 
+                       {"name":"Hitha Mage Hadaganna","image":"25.jpg"} ,
+                       {"name":"Himikari","image":"26.jpg"}, 
+                       {"name":"Oba Warade Pataleddi","image":"27.jpg"}, 
+                       {"name":"Me Ape Awasanayayi","image":"21.jpg"},
+                       {"name":"Purudu Thanikama","image":"22.jpg"},
+                       {"name":"Ithihasagatha Premayak","image":"23.jpg"}, 
+                       {"name":"Kanyawi","image":"24.jpg"},  
+                       {"name":"Himikari","image":"26.jpg"}, 
+                       {"name":"Oba Warade Pataleddi","image":"27.jpg"}, 
+                       {"name":"Me Ape Awasanayayi","image":"21.jpg"},
                     ],
             path:'',
             search : ''
@@ -64,12 +65,14 @@ export default class SubtitlesTvSeries extends Component{
                     <div className="col-md-9" style={{marginTop:"50px"}}>
                     {
                         testName.map((listItem)=>{
-                            return <Link to="/MainDownload?name=`${listItem.name}`">
-                                <div className ="col-md-12 listBox">
-                                    <img src={require(`./images/movies/${listItem.image}`)} className="listImage" alt="image Name" />
-                                    <div className="listName">{listItem.name}</div>
-                                </div>
-                            </Link>
+                            
+                            let url =  "/MainDownload?ImageName={listItem.name}";
+                            return <Link to={url}>
+                            <div className ="col-md-12 listBox">
+                                <img src={require(`./images/video/${listItem.image}`)} className="listImage" alt="image Name" />
+                                <div className="listName">{listItem.name}</div>
+                            </div>
+                        </Link>
                         })
                     }
                     </div>
@@ -90,7 +93,7 @@ export default class SubtitlesTvSeries extends Component{
                    
                 </div>
             </div>
-        );
+            );
+        }
+            
     }
-
-}

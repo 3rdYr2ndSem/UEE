@@ -27,7 +27,7 @@
 }
 
 .fazlanMain .headerText{
-    font-size: 80px;
+    font-size: 70px;
     font-weight: 50px
 }
 
@@ -48,6 +48,13 @@
     font-size:20px;
     width: 20px;
     margin:20px 0px 0px 0px;
+}
+
+.fazlanMain .table{
+    margin:20px 0px 0px 0px;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
 }
 
 .fazlanMain .torentAD{
@@ -104,6 +111,56 @@
 
 }
 
+.fazlanMain .comments{
+    height:500px;
+    width:100%;
+    background-color:rgba(0, 0, 0, 0.384); 
+    overflow: scroll;
+    margin-bottom:50px
+}
+
+.fazlanMain .commentBox{
+    height:100px;
+    width:100%;
+    background-color: #05010185;
+    margin: 0px 0px 0px 0px;
+    color:white;
+    border-bottom:0.5px solid rgba(138, 135, 135, 0.548);
+}
+
+.fazlanMain .commentBox .commentBoxImage{
+    height:70px;
+    width:65px;
+    margin:10px 0px 0px 0px;
+    border-radius: 50px
+    
+}
+
+.fazlanMain .commentBox .commentBxName{
+    margin:-60px 0px 10px 90px ;
+    font-size:20px;
+    
+}
+
+.fazlanMain .commentBox .commentBxcomment{
+    margin:0px 0px 0px 90px;
+    font-size: 15px;
+
+}
+
+.fazlanMain .comments::-webkit-scrollbar {
+    width: 0.5em;
+}
+ 
+.fazlanMain .comments::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(104, 104, 104, 0.3);
+    border-radius:5px solid black
+}
+ 
+.fazlanMain .comments::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.596);
+  border-radius:5px solid black
+}
 
 @media only screen and (max-width: 500px) {
 
@@ -132,7 +189,7 @@
     .fazlanMain .headerText{
         font-size: 25px;
         font-weight: 30px;
-        margin: -190px 0px 30px 160px;
+        margin: -450px 0px 30px 160px;
     }
     
     .fazlanMain .Stars{
@@ -152,7 +209,7 @@
     .fazlanMain .views{
         font-size:15px;
         width: 20px;
-        margin:15px 0px 0px 160px;
+        margin:15px 0px 250px 160px;
     }
     
     .fazlanMain .torentAD{
