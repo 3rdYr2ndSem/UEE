@@ -10,11 +10,11 @@ export default class moviePage extends Component{
                    <img src={require('./15.jpg')} alt="" className="downloadImage"/>
                    
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-5">
                     <div className="headerText">
                         <span>Deadpool 2</span>
-                        <h2>2018</h2>
-                        <h2>Action / Adventure / Fantacy / Sci-Fi </h2>
+                        <h4>2018</h4>
+                        <h4>Action / Adventure / Fantacy / Sci-Fi </h4>
                     </div>
                     
                     <div className=" allStar">
@@ -27,7 +27,7 @@ export default class moviePage extends Component{
                     
 
                     <div>
-                        <span className="fa fa-eye views"></span> <span style = {{fontSize:"20px"}}>12,200</span>
+                        <span className="fa fa-eye views"></span> <span style = {{fontSize:"15px"}}>12,200</span>
                     </div>
                     
                     
@@ -37,7 +37,8 @@ export default class moviePage extends Component{
                     
                 </div>
                 <div className="col-md-3">
-                        <h3>Similar Downloads</h3>
+                        
+                        <h4>Similar Downloads</h4>
                         <img src={require('./11.jpg')} className="relatedImages relatedImageone " alt=""/>
                         <img src={require('./12.jpg')} className="relatedImages relatedImageTwo" alt=""/>
                         <img src={require('./13.jpg')} className="relatedImages relatedImageTree" alt=""/>
@@ -68,6 +69,7 @@ export default class moviePage extends Component{
                     <div className="col-md-12">
                     <button className="btn btn-success downloadButton center-block"> <i className="fa fa-download"></i> Dowload Subtitles</button>
                     </div>
+
                 </div>
             </div>
         );
