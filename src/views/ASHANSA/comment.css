@@ -1,0 +1,129 @@
+.Forummain .box{
+    background-color: rgba(255, 255, 255, 0.521);
+    height:250px;
+    border:1px solid #ffffffea;
+    margin:40px 10px 10px 0px;
+    color:black;
+    text-align: center;
+   
+}
+
+
+.Forummain .boxAd{
+    background-color: rgba(255, 255, 255, 0.521);
+    border:1px solid #ffffff;
+    height:1000px;
+    width:20%;
+    margin:50px 00px 0px 30px;
+ }
+
+ .Forummain .downloadButton{
+    margin-top: 10px; 
+    margin-left: -40px;
+    width:270px;
+    height:50px;
+    font-size: 25px;
+    color: #009900;
+    border:3px solid  #043304;
+}
+
+.Forummain .inner{
+    background-color: #d1e075;
+    height:170px;
+    border:10px solid #fae614;
+    margin:10px 10px 10px 0px;
+    color:white;
+    background-image: url('./callout.JPG');
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-size: 20px;
+   
+}
+.Forummain .listImage{
+    margin-top: 10px;
+    height:170px;
+    width:180px; 
+    
+}
+
+.Forummain .ReplyButton{
+    width:270px;
+    height:50px;
+    font-size: 25px;
+    color: black;
+    border:3px solid  #680404;
+    background-color: #b14a4a;
+    
+}
+
+.Forummain .userdetails{
+    width: 100%;
+    height:100%;
+    color:#197777;
+    font-Size:15px;
+}
+@media only screen and (max-width: 1024px) {
+    .Forummain .box{
+        background-color: rgba(255, 255, 255, 0.521);
+        height:100%;
+        border:1px solid #ffffffea;
+        margin:50px 10px 10px 5px;
+        color:black;
+        text-align: center;
+       
+    }
+    
+    
+    .Forummain .boxAd{
+        background-color: rgba(255, 255, 255, 0.521);
+        border:1px solid #ffffff;
+        height:1000px;
+        width:20%;
+        margin:50px 00px 0px 30px;
+     }
+    
+     .Forummain .downloadButton{
+        width:200px;
+        height:50px;
+        font-size: 18px;
+        color: #009900;
+        border:3px solid  #043304;
+    }
+    
+    .Forummain .inner{
+        background-color: #d1e075;
+        height:100px;
+        border:2px solid #fae614;
+        margin:10px 10px 10px 0px;
+        color:white;
+        text-align: center;
+        background-image: url('./callout.JPG');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        font-size: 15px;
+       
+    }
+    .Forummain .listImage{
+        margin: 10px 0px 0px 0px;
+        height:50%;
+        width:50%; 
+        
+    }
+    
+    .Forummain .ReplyButton{
+        width:75%;
+        height:5%;
+        font-size: 10px;
+        color: black;
+        border:3px solid  #680404;
+        background-color: #b14a4a;
+    }
+    
+    .Forummain .userdetails{
+        width: 100%;
+        height:100%;
+        color:#197777;
+        font-Size:15px;
+    }
+}

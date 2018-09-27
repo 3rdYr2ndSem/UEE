@@ -23,7 +23,13 @@ import OriginalAudio from './views/FAZLAN/OriginalAudio'
 import moviePage from './views/NIPUNA/moviePage'
 
 import genaralLink1 from './views/NIPUNI/genaralLink1'
+import subtitlesLink1 from './views/NIPUNI/subtitlesLink1'
 
+
+
+import zoomlkforum from './views/ASHANSA/zoomlkforum'
+import announcements from './views/ASHANSA/announcements'
+import rulescomment from './views/ASHANSA/rulescomment'
 
 
 export default class App extends Component {
@@ -46,6 +52,16 @@ export default class App extends Component {
                       <Route path="/SubtitleTVseries" exact static component = {SubtitleTVseries} />
                       <Route path="/MainDownload" exact static component = {MainDownload} />
                       <Route path="/GenaralAnswer" exact static component = {genaralLink1} />
+                      <Route path="/AudioOriginal" exact static component = {Faq} />
+                      <Route path="/AudioRemix" exact static component = {Faq} />
+                      <Route path="/zoomlkforum" exact static component = {zoomlkforum} />
+                      <Route path="/announcements" exact static component = {announcements} />
+                      <Route path="/rulescomment" exact static component = {rulescomment} />
+
+                      <Route path="/GenaralAnswer" exact static component = {genaralLink1} />
+                      <Route path="/SubAnswer" exact static component = {subtitlesLink1} />
+
+
                       <Route path="/VideoLsit" exact static component = {VideoLsit} />
                       <Route path="/AudioList" exact static component = {AudioList} />
                       <Route path="/OriginalAudioList" exact static component = {OriginalAudio} />
