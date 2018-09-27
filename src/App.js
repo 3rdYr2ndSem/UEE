@@ -17,6 +17,10 @@ import Faq from './views/NIPUNI/indexFAQ'
 import SubtitleTVseries from './views/FAZLAN/SubtitlesTvSeries' 
 import MainDownload from './views/FAZLAN/mainDownload'
 
+import zoomlkforum from './views/ASHANSA/zoomlkforum'
+import announcements from './views/ASHANSA/announcements'
+import rulescomment from './views/ASHANSA/rulescomment'
+
 
 export default class App extends Component {
 
@@ -39,7 +43,11 @@ export default class App extends Component {
                       <Route path="/MainDownload" exact static component = {MainDownload} />
                       <Route path="/AudioOriginal" exact static component = {Faq} />
                       <Route path="/AudioRemix" exact static component = {Faq} />
+                      <Route path="/zoomlkforum" exact static component = {zoomlkforum} />
+                      <Route path="/announcements" exact static component = {announcements} />
+                      <Route path="/rulescomment" exact static component = {rulescomment} />
                       <Route path="**" exact static component = {Pagenotfound} />
+                      
                   </Switch>
                   </div>
           <Footer />
