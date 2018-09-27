@@ -92,11 +92,6 @@
         
     }
 
-    .fazlanList .listBox :hover{
-        background-color: red;
-
-    }
-
     .fazlanList .listImage {
         height: 65px;
         width: 65px; 
@@ -124,5 +119,10 @@
         color:white;
         margin:0px 0px 30px 0px;
         font-size: 20px
+    }
+    .fazlanList .listName{
+        font-size:22px;
+        margin:-70px 0px 0px 100px;
+        
     }
 }

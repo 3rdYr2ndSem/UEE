@@ -9,20 +9,21 @@ export default class VideoList extends Component{
         super(props)
 
         this.state={
-            Subtitles:[{"name":"Amma ","image":"21.jpg"},
-                       {"name":"Purudu Thanikama","image":"22.jpg"},
-                       {"name":"Ithihasagatha Premayak","image":"23.jpg"}, 
-                       {"name":"Kanyawi","image":"24.jpg"}, 
-                       {"name":"Hitha Mage Hadaganna","image":"25.jpg"} ,
-                       {"name":"Himikari","image":"26.jpg"}, 
-                       {"name":"Oba Warade Pataleddi","image":"27.jpg"}, 
-                       {"name":"Me Ape Awasanayayi","image":"21.jpg"},
-                       {"name":"Purudu Thanikama","image":"22.jpg"},
-                       {"name":"Ithihasagatha Premayak","image":"23.jpg"}, 
-                       {"name":"Kanyawi","image":"24.jpg"},  
-                       {"name":"Himikari","image":"26.jpg"}, 
-                       {"name":"Oba Warade Pataleddi","image":"27.jpg"}, 
-                       {"name":"Me Ape Awasanayayi","image":"21.jpg"},
+            Subtitles:[
+                {"name":"Me Ape Awasanayayi","image":"21.jpg"},
+                {"name":"Amma","image":"22.jpg"},
+                {"name":"Kanyawi","image":"23.jpg"}, 
+                {"name":"Hitha Mage Hadaganna","image":"24.jpg"}, 
+                {"name":"Himikari","image":"25.jpg"} ,
+                {"name":"Werahili Andath","image":"26.jpg"}, 
+                {"name":"Dehata Nopeni Inna","image":"27.jpg"}, 
+                {"name":"Me Ape Awasanayayi","image":"21.jpg"},
+                {"name":"Amma","image":"22.jpg"},
+                {"name":"Kanyawi","image":"23.jpg"}, 
+                {"name":"Hitha Mage Hadaganna","image":"24.jpg"},  
+                {"name":"Werahili Andath","image":"26.jpg"}, 
+                {"name":"Dehata Nopeni Inna","image":"27.jpg"}, 
+                {"name":"Me Ape Awasanayayi","image":"21.jpg"},
                     ],
             path:'',
             search : ''
@@ -66,10 +67,9 @@ export default class VideoList extends Component{
                     {
                         testName.map((listItem)=>{
                             
-                            let url =  "/MainDownload?ImageName={listItem.name}";
-                            return <Link to={url}>
+                            return <Link to={"MainDownload?name="+listItem.name +"&image="+listItem.image} >
                             <div className ="col-md-12 listBox">
-                                <img src={require(`./images/video/${listItem.image}`)} className="listImage" alt="image Name" />
+                                <img src={require(`./images/video/${listItem.image}`)} className="listImage" alt="" />
                                 <div className="listName">{listItem.name}</div>
                             </div>
                         </Link>

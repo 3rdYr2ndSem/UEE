@@ -70,7 +70,7 @@ export default class OriginalAudioList extends Component{
                             //path Changes Here
                             return <Link to="/MainDownload">
                             <div className ="col-md-12 listBox">
-                                <img src={require(`./images/video/${listItem.image}`)} className="listImage" alt="image Name" />
+                                <img src={require(`./images/video/${listItem.image}`)} className="listImage" alt="" />
                                 <div className="listName">{listItem.name}</div>
                             </div>
                         </Link>
