@@ -2,7 +2,7 @@ import React ,{Component} from 'react'
 import {Link} from 'react-router-dom'
 import './genaralCSS.css'
 
-export default class genaralLink1  extends Component{
+export default class subtitlesLink1  extends Component{
 
     render(){
         return(
@@ -11,7 +11,7 @@ export default class genaralLink1  extends Component{
                     <div style={{backgroundColor:"Black", color:"yellow",fontSize:"20px"}}>
                        <center> 
                            <h1>
-                                How to register with the web site ?
+                           How to download Subtitles from the web site?
                                 
                             </h1>
                         </center>
@@ -19,33 +19,40 @@ export default class genaralLink1  extends Component{
               
                 <div className="lineSpace">
                     <strong>
-                        <span style={{color:"Black",fontSize:"23px"}}>1. Click the Register button on the header.</span><br/>
+                        <span style={{color:"Black",fontSize:"23px"}}>1. Click the Subtitles menu on the menu bar.</span><br/>
                     </strong>
                 </div>
 
             <center>
                 <div className="col-md-12">
-                <img src={require('./registerHead.JPG')} alt="" className="regImage"/>
+                <img src={require('./sub1.JPG')} alt="" className="regImage"/>
                 </div>
             </center>
 
                  <div className="lineSpace">
                     <strong>
-                        <span style={{color:"Black",fontSize:"23px"}}>2. Then it will pop up the "Registration Form".</span><br/>
+                        <span style={{color:"Black",fontSize:"23px"}}>2. Then it will navigate to the "Subtitles page", and you need to
+                        search for the movie you wish to download the subtitles and click the image of that".</span><br/>
                     </strong>
                 </div>
 
                 <center>
                 <div className="col-md-12">
-                <img src={require('./RegForm.JPG')} alt="" className="regform"/>
+                <img src={require('./sub2.JPG')} alt="" className="regform"/>
                 </div>
             </center>
 
                 <div className="lineSpace">
                     <strong>
-                        <span style={{color:"Black",fontSize:"23px"}}>3. Then you need to enter the relevant details and submit it.</span><br/>
+                        <span style={{color:"Black",fontSize:"23px"}}>3. After that you are ready to download the subtitles after clicking that 
+                        subtitle button at the bottom of the page.</span><br/>
                     </strong>
                 </div>
+                <center>
+                <div className="col-md-12">
+                <img src={require('./sub3.JPG')} alt="" className="regform"/>
+                </div>
+            </center>
 
             <div className="lineSpace">
                 <center>

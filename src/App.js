@@ -23,6 +23,8 @@ import OriginalAudio from './views/FAZLAN/OriginalAudio'
 import moviePage from './views/NIPUNA/moviePage'
 
 import genaralLink1 from './views/NIPUNI/genaralLink1'
+import subtitlesLink1 from './views/NIPUNI/subtitlesLink1'
+
 
 
 
@@ -45,18 +47,17 @@ export default class App extends Component {
                       <Route path="/Faq" exact static component = {Faq} />
                       <Route path="/SubtitleTVseries" exact static component = {SubtitleTVseries} />
                       <Route path="/MainDownload" exact static component = {MainDownload} />
-<<<<<<< HEAD
                       <Route path="/AudioOriginal" exact static component = {Faq} />
                       <Route path="/AudioRemix" exact static component = {Faq} />
 
                       <Route path="/GenaralAnswer" exact static component = {genaralLink1} />
+                      <Route path="/SubAnswer" exact static component = {subtitlesLink1} />
 
-=======
+
                       <Route path="/VideoLsit" exact static component = {VideoLsit} />
                       <Route path="/AudioList" exact static component = {AudioList} />
                       <Route path="/OriginalAudioList" exact static component = {OriginalAudio} />
                       <Route path="/MoviePage" exact static component = {moviePage} />
->>>>>>> af2d7aad4761507536a945e5f73ae780e62d7513
                       <Route path="**" exact static component = {Pagenotfound} />
                       
                   </Switch>
