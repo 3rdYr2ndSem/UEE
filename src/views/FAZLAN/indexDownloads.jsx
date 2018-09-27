@@ -25,7 +25,6 @@ export default class Downloads  extends Component{
                 </div>
                
                {/* recent, popular */}
-            <div className="col-md-3 box boxAd">
                <div className="col-md-3">
                
                 <h3>Latest Downloads</h3>
@@ -41,7 +40,7 @@ export default class Downloads  extends Component{
                         <img src={require('./images/video/24.jpg')} className="relatedImages relatedImageFour" alt=""/>
 
                 </div>
-                </div>          
+                       
             </div>
         );
     }
