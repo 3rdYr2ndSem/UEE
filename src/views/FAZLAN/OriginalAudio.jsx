@@ -68,7 +68,7 @@ export default class OriginalAudioList extends Component{
                     {
                         testName.map((listItem)=>{
                             //path Changes Here
-                            return <Link to="/MainDownload">
+                            return <Link to={"MainDownload?name="+listItem.name +"&image="+listItem.image}>
                             <div className ="col-md-12 listBox">
                                 <img src={require(`./images/video/${listItem.image}`)} className="listImage" alt="" />
                                 <div className="listName">{listItem.name}</div>
