@@ -122,7 +122,7 @@ export default class ManiDownload extends Component{
                         <img src={require('./images/video/24.jpg')} className="relatedImages relatedImageFour" alt=""/>
                 </div>
                 <div className="col-md-12">
- 
+                    <img className="imageAds" src="http://zoomlinkhub.com/wp-content/uploads/2018/09/srigift.gif" alt="" width="100%" height="150" />
                 </div>
             </div>
         );
