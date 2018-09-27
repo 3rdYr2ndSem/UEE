@@ -10,12 +10,22 @@ import Pagenotfound from './raw/pageNotFound'
 import Downloads from './views/FAZLAN/indexDownloads'
 import Forum from './views/ASHANSA/indexForum'
 import Home from './views/NETHU/indexHome'
-import Subtitles from './views/NIPUNA/indexSubtitles'
+import Subtitles from './views/NIPUNA/subtitlesMainPage'
 import Faq from './views/NIPUNI/indexFAQ'
 
 
 import SubtitleTVseries from './views/FAZLAN/SubtitlesTvSeries' 
 import MainDownload from './views/FAZLAN/mainDownload'
+import VideoLsit from './views/FAZLAN/videoList'
+import AudioList from './views/FAZLAN/AudioList'
+import OriginalAudio from './views/FAZLAN/OriginalAudio'
+
+import moviePage from './views/NIPUNA/moviePage'
+
+import genaralLink1 from './views/NIPUNI/genaralLink1'
+import subtitlesLink1 from './views/NIPUNI/subtitlesLink1'
+
+
 
 import zoomlkforum from './views/ASHANSA/zoomlkforum'
 import announcements from './views/ASHANSA/announcements'
@@ -46,6 +56,15 @@ export default class App extends Component {
                       <Route path="/zoomlkforum" exact static component = {zoomlkforum} />
                       <Route path="/announcements" exact static component = {announcements} />
                       <Route path="/rulescomment" exact static component = {rulescomment} />
+
+                      <Route path="/GenaralAnswer" exact static component = {genaralLink1} />
+                      <Route path="/SubAnswer" exact static component = {subtitlesLink1} />
+
+
+                      <Route path="/VideoLsit" exact static component = {VideoLsit} />
+                      <Route path="/AudioList" exact static component = {AudioList} />
+                      <Route path="/OriginalAudioList" exact static component = {OriginalAudio} />
+                      <Route path="/MoviePage" exact static component = {moviePage} />
                       <Route path="**" exact static component = {Pagenotfound} />
                       
                   </Switch>

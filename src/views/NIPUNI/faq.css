@@ -1,0 +1,240 @@
+.topBox{
+    width: 100%;
+       
+        align-items: center;
+        margin:50px 200px 10px 200px;   
+}
+
+.nipuni .downloadImage{
+    height:200px;
+    width:296px;
+    border: 5px solid white;
+    border-radius: 5px;
+    
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    /* border: 3px solid #73AD21; */
+    padding: 1px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.imageDiv{
+    margin: auto;
+    width: 100%;
+    /* border: 3px solid #73AD21; */
+    padding: 1px;
+    text-align: center;
+    color: #ffffff;  
+}
+
+.nipuni .box{
+    background-color: rgba(255, 255, 255, 0.521);
+    height:100%;
+    border:1px solid #ffffff;
+    margin:50px 10px 10px 0px;
+    color:black;
+    text-align: center;
+    /* width: 100%; */
+}
+.nipuni .boxContent{
+    margin:20px -10px 20px -20px;
+    /* width: 100%; */
+}
+
+
+.nipuni .box2{
+       height:100%;
+       /* width: 100%; */
+ margin:20px 0px 20px -20px;
+  color:black;
+   text-align: center;
+} 
+
+.nipuni .ButtonDefault{
+    margin:0px 0px 0px 0px;
+}
+
+.nipuni .doubleButtonDefault{
+    margin:0px 10px 0px 10px;
+    height:50px;
+
+}
+
+.nipuni .searchButton{
+    width:500px;
+    height:75px;
+    font-size: 25px
+}
+
+.nipuni .showMoreButton{
+    width:50px;
+    height:50px;
+    font-size: 25px
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .topBox{
+        width: 100%;
+           
+            align-items: center;
+            margin:50px 200px 10px 200px;   
+    }
+    
+    .nipuni .downloadImage{
+        height:200px;
+        width:296px;
+        border: 5px solid white;
+        border-radius: 5px;
+        
+    }
+    
+    .center {
+        margin: auto;
+        width: 100%;
+        /* border: 3px solid #73AD21; */
+        padding: 1px;
+        text-align: center;
+        color: #ffffff;
+    }
+    
+    .imageDiv{
+        margin: auto;
+        width: 100%;
+        /* border: 3px solid #73AD21; */
+        padding: 1px;
+        text-align: center;
+        color: #ffffff;  
+    }
+    
+    .nipuni .box{
+        background-color: rgba(255, 255, 255, 0.521);
+        height:100%;
+        border:1px solid #ffffff;
+        margin:50px 100px 10px 0px;
+        color:black;
+        text-align: center;
+        width: 100%;
+       
+    }
+    .nipuni .boxContent{
+        margin:20px -10px 20px 0px;
+        /* width: 100%; */
+    }
+    
+    
+    .nipuni .box2{
+           height:100%;
+           /* width: 100%; */
+     margin:20px 0px 20px 0px;
+      color:black;
+       text-align: center;
+    } 
+    
+    .nipuni .ButtonDefault{
+        margin:0px 0px 0px 0px;
+    }
+    
+    .nipuni .doubleButtonDefault{
+        margin:0px 10px 0px 10px;
+        height:50px;
+    
+    }
+    
+    .nipuni .searchButton{
+        width:500px;
+        height:75px;
+        font-size: 25px
+    }
+    
+    .nipuni .showMoreButton{
+        width:50px;
+        height:50px;
+        font-size: 25px
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+.topBox{
+    width: 100%;
+       
+        align-items: center;
+        margin:50px 200px 10px 200px;   
+}
+
+.nipuni .downloadImage{
+    height:200px;
+    width:296px;
+    border: 5px solid white;
+    border-radius: 5px;
+    
+}
+
+.center {
+    margin: auto;
+    width: 100%;
+    /* border: 3px solid #73AD21; */
+    padding: 1px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.imageDiv{
+    margin: auto;
+    width: 100%;
+    /* border: 3px solid #73AD21; */
+    padding: 1px;
+    text-align: center;
+    color: #ffffff;  
+}
+
+.nipuni .box{
+    background-color: rgba(255, 255, 255, 0.521);
+    height:100%;
+    border:1px solid #ffffff;
+    margin:50px 10px 10px 0px;
+    color:black;
+    text-align: center;
+    /* width: 100%; */
+}
+.nipuni .boxContent{
+    margin:20px -10px 20px -20px;
+    /* width: 100%; */
+}
+
+
+.nipuni .box2{
+       height:100%;
+       /* width: 100%; */
+ margin:20px 0px 20px -20px;
+  color:black;
+   text-align: center;
+} 
+
+.nipuni .ButtonDefault{
+    margin:0px 0px 0px 0px;
+}
+
+.nipuni .doubleButtonDefault{
+    margin:0px 10px 0px 10px;
+    height:50px;
+
+}
+
+.nipuni .searchButton{
+    width:500px;
+    height:75px;
+    font-size: 25px;
+}
+
+.nipuni .showMoreButton{
+    width:50px;
+    height:50px;
+    font-size: 25px
+}
+}
