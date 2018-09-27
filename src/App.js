@@ -17,6 +17,9 @@ import Faq from './views/NIPUNI/indexFAQ'
 import SubtitleTVseries from './views/FAZLAN/SubtitlesTvSeries' 
 import MainDownload from './views/FAZLAN/mainDownload'
 
+import genaralLink1 from './views/NIPUNI/genaralLink1'
+
+
 
 export default class App extends Component {
 
@@ -39,6 +42,9 @@ export default class App extends Component {
                       <Route path="/MainDownload" exact static component = {MainDownload} />
                       <Route path="/AudioOriginal" exact static component = {Faq} />
                       <Route path="/AudioRemix" exact static component = {Faq} />
+
+                      <Route path="/GenaralAnswer" exact static component = {genaralLink1} />
+
                       <Route path="**" exact static component = {Pagenotfound} />
                   </Switch>
                   </div>

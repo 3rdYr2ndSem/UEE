@@ -1,0 +1,65 @@
+.nipuni .Outterbox{
+    background-color: rgba(255, 255, 255, 0.521);
+    border:1px solid #ffffff;
+    height:100%;
+    width:100%;
+    margin:50px 0px 50px 0px;
+ }
+
+ .nipuni .lineSpace{
+    margin:40px 0px 0px 0px;
+}
+
+.nipuni .regImage{
+    height:335px;
+    width:335px;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin:40px 0px 40px 0px;
+
+    
+}
+.nipuni .regform{
+    height:425px;
+    width:688px;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin:40px 0px 40px 0px;
+
+    
+}
+
+ @media only screen and (max-width: 1024px) {
+    .nipuni .Outterbox{
+        background-color: rgba(255, 255, 255, 0.521);
+        border:1px solid #ffffff;
+        height:100%;
+        width:100%;
+        margin:50px 0px 50px 0px;
+     }
+    
+     .nipuni .lineSpace{
+        margin:40px 0px 0px 0px;
+    }
+    
+    .nipuni .regImage{
+        height:100%;
+        width:100%;
+        border: 5px solid white;
+        border-radius: 5px;
+        margin:40px 0px 40px 0px;
+    
+        
+    }
+    .nipuni .regform{
+        height:100%;
+        width:100%;
+        border: 5px solid white;
+        border-radius: 5px;
+        margin:40px 0px 40px 0px;
+    
+        
+    }
+    
+   
+ }
