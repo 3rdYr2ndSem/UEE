@@ -64,8 +64,39 @@ export default class  Faq extends Component{
                    <div className="col-md-12 box">                                               
                         
                             <div className="col-md-3 box2">
-                                <img src={require('./genaral.jpg')} alt="" className="downloadImage"/>
+                                {/* <img src={require('./genaral.jpg')} alt="" className="downloadImage"/> */}
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                        <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <img src={require('./genaral.jpg')} alt="Los Angeles" className="downloadImage" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src={require('./genaral4.jpg')} alt="Chicago" className="downloadImage"/>
+                                                </div>
+                                                
+                                                <div class="item">
+                                                    <img src={require('./genaral5.jpg')} className="downloadImage"/>
+                                                </div>
+                                                </div>
+
+                                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                                
                             </div> 
+
                             <div className="col-md-9 boxContent">
                                 <h2><mark style={{backgroundColor:"Black",color:"yellow"}}>&nbsp;&nbsp;&nbsp;&nbsp;General&nbsp;&nbsp;&nbsp;&nbsp;</mark></h2>
                                     <Link to="/GenaralAnswer" style={{ color: '#18048c' }}><h3>How to register with the web site ?</h3></Link>
@@ -80,7 +111,39 @@ export default class  Faq extends Component{
                     <div className="col-md-12 box">                                               
                         
                         <div className="col-md-3 box2">
-                            <img src={require('./cc.png')} alt="" className="downloadImage"/>
+                            {/* <img src={require('./cc.png')} alt="" className="downloadImage"/> */}
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                        <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <img src={require('./cc.png')} alt="Los Angeles" className="downloadImage" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src={require('./cc2.jpg')} alt="Chicago" className="downloadImage"/>
+                                                </div>
+                                                
+                                                <div class="item">
+                                                    <img src={require('./cc3.jpg')} className="downloadImage"/>
+                                                </div>
+                                                </div>
+
+                                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                        
+                        
+                        
                         </div> 
                         <div className="col-md-9 boxContent">
                             <h2><mark style={{backgroundColor:"Black",color:"yellow"}}>&nbsp;&nbsp;&nbsp;Subtitles&nbsp;&nbsp;&nbsp;</mark></h2>
@@ -96,7 +159,41 @@ export default class  Faq extends Component{
                     <div className="col-md-12 box">                                               
                         
                         <div className="col-md-3 box2">
-                            <img src={require('./video.jpg')} alt="" className="downloadImage"/>
+                            {/* <img src={require('./video.jpg')} alt="" className="downloadImage"/> */}
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                        <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <img src={require('./video.jpg')} alt="Los Angeles" className="downloadImage" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src={require('./video1.jpg')} alt="Chicago" className="downloadImage"/>
+                                                </div>
+                                                
+                                                <div class="item">
+                                                    <img src={require('./video2.jpg')} className="downloadImage"/>
+                                                </div>
+                                                </div>
+
+                                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                      
+                      
+                      
+                      
+                      
                         </div> 
                         <div className="col-md-9 boxContent">
                             <h2><mark style={{backgroundColor:"Black",color:"yellow"}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Video&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</mark></h2>
@@ -111,7 +208,38 @@ export default class  Faq extends Component{
                     <div className="col-md-12 box">                                               
                         
                         <div className="col-md-3 box2">
-                            <img src={require('./audio.jpg')} alt="" className="downloadImage"/>
+                            {/* <img src={require('./audio.jpg')} alt="" className="downloadImage"/> */}
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                    </ol>
+                                        <div class="carousel-inner">
+                                                <div class="item active">
+                                                    <img src={require('./audio.jpg')} alt="audio" className="downloadImage" />
+                                                </div>
+
+                                                <div class="item">
+                                                    <img src={require('./audio1.jpg')} alt="genaral2" className="downloadImage"/>
+                                                </div>
+                                                
+                                                <div class="item">
+                                                    <img src={require('./audio2.jpg')} className="downloadImage"/>
+                                                </div>
+                                                </div>
+
+                                                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                                                <span class="glyphicon glyphicon-chevron-left"></span>
+                                                <span class="sr-only">Previous</span>
+                                                </a>
+                                                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                                                <span class="sr-only">Next</span>
+                                                </a>
+                                            </div>
+                       
+                       
                         </div> 
                         <div className="col-md-9 boxContent">
                             <h2><mark style={{backgroundColor:"Black",color:"yellow"}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Audio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</mark></h2>

@@ -86,8 +86,8 @@
     }
     
     .nipuni .downloadImage{
-        height:200px;
-        width:296px;
+        height:100%;
+        width:100%;
         border: 5px solid white;
         border-radius: 5px;
         
