@@ -33,6 +33,7 @@ export default class Home extends Component{
                                         
                                     </div>
                                     <h4>Lampoon's Vacation</h4>
+                                    <h6>2017</h6>
                                     
                                 </div>
                                 
@@ -128,6 +129,7 @@ export default class Home extends Component{
                                         
                                     </div>
                                     <h4>Insidedeep Throa</h4>
+                                    <h6>2017</h6>
                                     
                                 </div>
                                 
@@ -218,6 +220,7 @@ export default class Home extends Component{
                                     
                                 </div>
                                 <h4>Grand Prix</h4>
+                                <h6>2017</h6>
                                 
                             </div>
                             
@@ -320,6 +323,7 @@ export default class Home extends Component{
                                         
                                     </div>
                                     <h4>Hotel Transylvania 3</h4>
+                                    <h6>2017</h6>
                                     
                                 </div>
                                 
@@ -338,6 +342,7 @@ export default class Home extends Component{
                                     
                                 </div>
                                 <h4>European Vacation</h4>
+                                <h6>2017</h6>
                                 
                             </div>
                             
@@ -357,6 +362,7 @@ export default class Home extends Component{
                                 
                             </div>
                             <h4>The Grand Budapest Hotel</h4>
+                            <h6>2017</h6>
                             
                         </div>
                         
@@ -376,6 +382,7 @@ export default class Home extends Component{
                                 
                             </div>
                             <h4>The Grand Seduction</h4>
+                            <h6>2017</h6>
                             
                         </div>
                         
