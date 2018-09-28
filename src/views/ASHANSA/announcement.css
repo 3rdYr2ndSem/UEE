@@ -1,0 +1,124 @@
+.zoomlk .listBox{
+
+    height:100%;
+    width:100%;
+    background-color: #d1e075;
+    margin: 0px 0px 10px 0px;
+    color:black
+}
+
+
+
+.zoomlk .listBox:hover{
+    margin:10px
+}
+
+.zoomlk .box{
+    background-color: #3d700f;
+    height:50px;
+    width: 98%;
+    border:2px solid #062e01 ;
+    margin:10px 0px 10px 10px;
+    color:black;
+    
+    
+   
+}
+
+.zoomlk .listImage{
+    margin-top: 10px;
+    height:80px;
+    width:80px; 
+    border-radius: 50px
+}
+
+.zoomlk .listImage:hover{
+    border:5px solid rgb(74, 107, 255) ;
+}
+.zoomlk .Announcements{
+    margin:10px 10px 10px 0px;
+}
+.zoomlk .Subtitle{
+    
+    color:#0d0d96;
+    font-Size:30px;
+    
+}
+.zoomlk .Description{
+    color:#003366;
+    font-Size:20px;
+    margin-left: 750px;
+}
+.zoomlk .title{
+    
+    color:#e6ebe6;
+    font-Size:30px;
+    
+}
+.zoomlk .post{
+    color:#e6ebe6;
+    font-Size:30px;
+  
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .zoomlk .listBox{
+        height:100%;
+        width:100%;
+        background-color: #d1e075;
+        margin: -0px 0px 10px 0px;
+        color:black;
+    }
+    
+    
+    
+    .zoomlk .listBox:hover{
+        margin:10px
+    }
+
+    
+    .zoomlk .box{
+        background-color: #3d700f;
+        height:50px;
+        width: 95%;
+        border:2px solid #062e01 ;
+        margin:10px 15px 10px 10px;
+        color:black;
+        
+        
+       
+    }
+    .zoomlk .title{
+    
+        color:#e6ebe6;
+        font-Size:30px;
+        
+    }
+    .zoomlk .post{
+        color:#e6ebe6;
+        font-Size:30px;
+        margin-Left:-920px;
+    }
+    .zoomlk .Subtitle{
+       
+        color:#0d0d96;
+        font-Size:30px;
+    }
+    .zoomlk .Description{
+        color:#003366;
+        font-Size:20px;
+        margin-left: -750px;
+    }
+    .zoomlk .listImage {
+        height: 40px;
+        width: 40px; 
+        border-radius: 50px;
+        border: 1px solid black
+    }
+    .zoomlk .listImage:hover{
+        border:5px solid rgb(74, 107, 255) ;
+    }
+    
+
+}

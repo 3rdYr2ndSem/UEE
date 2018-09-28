@@ -11,19 +11,19 @@ export default class AudioList extends Component{
 
         this.state={
             Subtitles:[ 
-                        {"name":"Amma (Remix)","image":"21.jpg"},
-                        {"name":"Purudu Thanikama (Remix)","image":"22.jpg"},
-                        {"name":"Ithihasagatha Premayak (Remix)","image":"23.jpg"}, 
-                        {"name":"Kanyawi (Remix)","image":"24.jpg"}, 
-                        {"name":"Hitha Mage Hadaganna (Remix)","image":"25.jpg"} ,
-                        {"name":"Himikari (Remix)","image":"26.jpg"}, 
-                        {"name":"Oba Warade Pataleddi (Remix)","image":"27.jpg"}, 
                         {"name":"Me Ape Awasanayayi (Remix)","image":"21.jpg"},
-                        {"name":"Purudu Thanikama (Remix)","image":"22.jpg"},
-                        {"name":"Ithihasagatha Premayak (Remix)","image":"23.jpg"}, 
-                        {"name":"Kanyawi (Remix)","image":"24.jpg"},  
-                        {"name":"Himikari (Remix)","image":"26.jpg"}, 
-                        {"name":"Oba Warade Pataleddi (Remix)","image":"27.jpg"}, 
+                        {"name":"Amma (Remix)","image":"22.jpg"},
+                        {"name":"Kanyawi (Remix)","image":"23.jpg"}, 
+                        {"name":"Hitha Mage Hadaganna (Remix)","image":"24.jpg"}, 
+                        {"name":"Himikari  (Remix)","image":"25.jpg"} ,
+                        {"name":"Werahili Andath(Remix)","image":"26.jpg"}, 
+                        {"name":"Dehata Nopeni Inna (Remix)","image":"27.jpg"}, 
+                        {"name":"Me Ape Awasanayayi (Remix)","image":"21.jpg"},
+                        {"name":"Amma (Remix)","image":"22.jpg"},
+                        {"name":"Kanyawi (Remix)","image":"23.jpg"}, 
+                        {"name":"Hitha Mage Hadaganna (Remix)","image":"24.jpg"},  
+                        {"name":"Werahili Andath (Remix)","image":"26.jpg"}, 
+                        {"name":"Dehata Nopeni Inna (Remix)","image":"27.jpg"}, 
                         {"name":"Me Ape Awasanayayi (Remix)","image":"21.jpg"},
                     ],
             path:'',
@@ -39,6 +39,12 @@ export default class AudioList extends Component{
     
     updateSearch(event){
         this.setState({search : event.target.value.substr(0,20)});
+    }
+
+    onLinkClicked(image,name){
+        this.setState({image:image,name:name});
+        this.props.history.push(`/MainDownload?name=${this.state.Subtitles.name}&image=${this.state.Subtitles.image}`);
+ 
     }
 
     render(){
@@ -68,9 +74,9 @@ export default class AudioList extends Component{
                     {
                         testName.map((listItem)=>{
                             //path Changes Here
-                            return <Link to="/MainDownload">
+                            return <Link to={"MainDownload?name="+listItem.name +"&image="+listItem.image} >
                             <div className ="col-md-12 listBox">
-                                <img src={require(`./images/video/${listItem.image}`)} className="listImage" alt="image Name" />
+                                <img src={require(`./images/video/${listItem.image}`)} className="listImage" alt="" />
                                 <div className="listName">{listItem.name}</div>
                             </div>
                         </Link>

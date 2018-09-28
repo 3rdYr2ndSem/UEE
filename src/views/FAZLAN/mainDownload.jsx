@@ -28,7 +28,7 @@ export default class ManiDownload extends Component{
 
     componentWillMount(){
         const values = queryString.parse(this.props.location.search)
-        this.setState({name:values.item2,name:values.item});
+        this.setState({name:values.name,image:values.image});
    
     }
 
@@ -37,7 +37,7 @@ export default class ManiDownload extends Component{
             <div className="fazlanMain">
                 <div className="col-md-3">
                     <div>
-                        <img src={require("./images/movies/15.jpg")} alt="" className="downloadImage"/>
+                        <img src={require("./images/video/"+this.state.image)} alt="" className="downloadImage"/>
                     </div>
                     <div>
                         <table className="table">
@@ -69,10 +69,10 @@ export default class ManiDownload extends Component{
 
                 <div className="col-md-6">
                     <div className="headerText">
-                        <span>Deadpool 2</span>
+                        <span>{this.state.name}</span>
                     </div>
                     
-                    <button className="btn btn-success downloadButton" > <i className="fa fa-download"></i> Download</button> 
+                    <button className="btn btn-success downloadButton" > <i className="fa fa-download"></i> Download [12MB]</button> 
                     
                     <div className=" allStar">
                         <span class="fa fa-star Stars starChecked"></span>
@@ -95,18 +95,13 @@ export default class ManiDownload extends Component{
                     <div className="movieDescription">
                         After losing the love of his life, 4th wall-breaking mercenary Wade Wilson aka Deadpool (Ryan Reynolds) must protect Russel (Julian Dennison) must assemble a team of mutants and
                          protect Russel from Cable (Josh Brolin), a no-nonsense, dangerous cyborg from the future and Deadpool must learn the most important lesson of all, to be part of a family again.
-                            <br/>
-                        After surviving a near fatal bovine attack, a disfigured cafeteria chef (Wade Wilson) struggles to fulfill his dream of becoming Mayberry's hottest bartender while also learning 
-                        to cope with his lost sense of taste. Searching to regain his spice for life, as well as a flux capacitor, Wade mug a new taste for adventure and earning the coveted coffee mug title
-                         of World's Best Lover.st battle ninjas, the Yakuza, and a pack of sexually aggressive 
-                        canines, as he journeys around the world to discover the importance of family, friendship, and flavor - findin
                        
                     </div>
                     <div className="comments">
                         {
                             this.state.comments.map(comment=>{
                                 return <div className ="col-md-12 commentBox">
-                                    <img src={require(`./images/human/${comment.image}`)} className="commentBoxImage" alt="image Name" />
+                                    <img src={require(`./images/human/${comment.image}`)} className="commentBoxImage" alt="" />
                                     <div className="commentBxName">{comment.name}</div>
                                     <div className=" commentBxcomment">{comment.comment}</div>
                             </div>
@@ -127,7 +122,7 @@ export default class ManiDownload extends Component{
                         <img src={require('./images/video/24.jpg')} className="relatedImages relatedImageFour" alt=""/>
                 </div>
                 <div className="col-md-12">
- 
+                    <img className="imageAds" src="http://zoomlinkhub.com/wp-content/uploads/2018/09/srigift.gif" alt="" width="100%" height="150" />
                 </div>
             </div>
         );

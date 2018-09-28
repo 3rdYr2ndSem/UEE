@@ -1,0 +1,96 @@
+.Forummain .box{
+    background-color: rgba(255, 255, 255, 0.521);
+    height:210px;
+    border:1px solid #ffffffea;
+    margin:50px 10px 10px 0px;
+    color:black;
+    text-align: center;
+   
+}
+
+
+.Forummain .boxAd{
+    background-color: rgba(255, 255, 255, 0.521);
+    border:1px solid #ffffff;
+    height:1000px;
+    width:20%;
+    margin:50px 00px 0px 30px;
+ }
+
+ .Forummain .relatedImages{
+    height:200px;
+    width:100%;  
+    border:5px solid white ;
+    border-radius: 5px
+ }
+
+ .Forummain  .relatedImages:hover{
+    border:5px solid rgb(74, 107, 255) ;
+ }
+
+ .Forummain .relatedImageone{
+    margin: 0px 0px 20px 0px
+}
+.Forummain .relatedImagetwo{
+    margin: 0px 0px 20px 0px
+}
+.Forummain .relatedImagethree{
+    margin: 0px 0px 20px 0px
+}
+.Forummain .relatedImagefour{
+    margin: 0px 0px 20px 0px
+}
+.Forummain .relatedImagefive{
+    margin: 0px 0px 20px 0px
+}
+
+@media only screen and (max-width: 500px) {
+
+
+    .Forummain .box{
+        background-color: rgba(255, 255, 255, 0.521);
+        height:210px;
+        border:1px solid #ffffffea;
+        margin:50px 10px 10px 0px;
+        color:black;
+        text-align: center;
+       
+    }
+    
+    
+    .Forummain .boxAd{
+        background-color: rgba(255, 255, 255, 0.521);
+        border:1px solid #ffffff;
+        height:1000px;
+        width:20%;
+        margin:50px 00px 0px 30px;
+     }
+    
+     .Forummain .relatedImages{
+        height:200px;
+        width:100%;  
+        border:5px solid white ;
+        border-radius: 5px
+     }
+    
+     .Forummain  .relatedImages:hover{
+        border:5px solid rgb(74, 107, 255) ;
+     }
+    
+     .Forummain .relatedImageone{
+        margin: 0px 0px 20px 0px
+    }
+    .Forummain .relatedImagetwo{
+        margin: 0px 0px 20px 0px
+    }
+    .Forummain .relatedImagethree{
+        margin: 0px 0px 20px 0px
+    }
+    .Forummain .relatedImagefour{
+        margin: 0px 0px 20px 0px
+    }
+    .Forummain .relatedImagefive{
+        margin: 0px 0px 20px 0px
+    }
+}
+

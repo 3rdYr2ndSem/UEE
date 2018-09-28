@@ -7,7 +7,7 @@
 }
 
 .fazlanMain .downloadButton{
-    width:200px;
+    width:270px;
     height:50px;
     font-size: 25px;
     background: rgba(164,179,87,1);
@@ -162,6 +162,11 @@
   border-radius:5px solid black
 }
 
+.fazlanMain .imageAds{
+    width:100%;
+    margin-bottom:10px;
+}
+
 @media only screen and (max-width: 500px) {
 
     .fazlanMain .downloadImage{
@@ -262,6 +267,11 @@
         margin: -50px 0px 20px 0px;
         font-size: 20px;
     
+    }
+
+    .fazlanMain .imageAds{
+        width:100%
+        
     }
     
 

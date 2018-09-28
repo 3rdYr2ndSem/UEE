@@ -53,18 +53,27 @@
 }
 
 .nipuna .relatedImageTwo{
-    margin: 20px 0px 20px 0px
+    margin: 20px 20px 20px 0px
     
 }
 
 .nipuna .relatedImageTree{
-    margin: 20px 0px 0px 0px
+    margin: 0px 20px 0px 0px
    
 }   
 
 .nipuna .relatedImageFour{
-    margin: 20px 0px 0px 0px
+    margin: 0px 0px 0px 0px
     
+}
+
+#sidebar{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.a:link{
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 500px) {
@@ -86,7 +95,7 @@
 
     }
 
-    .fazlan .listImage {
+    .nipuna .listImage {
         height: 65px;
         width: 65px; 
         border-radius: 50px;
@@ -101,11 +110,47 @@
         height:0px;
     }
  
-    .fazlan  .searchBar{
+    .nipuna  .searchBar{
         height: 50px;
         width:100%;
         font-size: 30px;
         color:Gray;
         margin:0px 0px 0px 0px
     } 
+
+    .nipuna .relatedImages{
+        height:180px;
+        width:100px;  
+        border:5px solid white ;
+        border-radius: 5px
+     }
+
+     .nipuna .relatedImageone{
+        margin: 20px 20px 20px 0px
+    }
+    
+    .nipuna .relatedImageTwo{
+        margin: 20px 0px 20px 0px
+        
+    }
+    
+    .nipuna .relatedImageTree{
+        margin: 20px 0px 0px 0px
+       
+    }   
+    
+    .nipuna .relatedImageFour{
+        margin: 20px 0px 0px 20px
+        
+    }
+
+    .nipuna .mobileList{
+        width: 100%
+    }
+
+    .nipuna  .relatedImages:hover{
+        border:3px solid rgb(74, 107, 255) ;
+        height:180px;
+        width:100px;
+     }
 }

@@ -1,0 +1,98 @@
+.zoomlk .listBox{
+
+    height:100%;
+    width:100%;
+    background-color: #d1e075;
+    margin: 0px 0px 10px 0px;
+    color:black
+}
+
+
+
+.zoomlk .listBox:hover{
+    margin:10px
+}
+
+.zoomlk .box{
+    background-color: #3d700f;
+    height:50px;
+    border:2px solid #062e01 ;
+    margin:10px 10px 10px 0px;
+    color:black;
+    
+    
+   
+}
+
+.zoomlk .listImage{
+    margin-top: 10px;
+    height:80px;
+    width:80px; 
+    border-radius: 50px
+}
+
+.zoomlk .listImage:hover{
+    border:5px solid rgb(74, 107, 255) ;
+}
+.zoomlk .Announcements{
+    margin:10px 10px 10px 0px;
+}
+.zoomlk .Subtitle{
+    color:#3399ff;
+    font-Size:30px;
+    
+}
+.zoomlk .Description{
+    color:#003366;
+    font-Size:20px;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .zoomlk .listBox{
+        height:100%;
+        width:100%;
+        background-color: #d1e075;
+        margin: -0px 0px 10px 0px;
+        color:black;
+    }
+    
+    
+    
+    .zoomlk .listBox:hover{
+        margin:10px
+    }
+
+    
+    .zoomlk .box{
+        background-color: #3d700f;
+        height:50px;
+        border:2px solid #062e01 ;
+        margin:10px 10px 10px 0px;
+        color:black;
+        
+        
+       
+    }
+    
+    .zoomlk .Subtitle{
+       
+        color:#3399ff;
+        font-Size:20px;
+    }
+    .zoomlk .Description{
+        color:#003366;
+        font-Size:10px;
+    }
+    .zoomlk .listImage {
+        height: 40px;
+        width: 40px; 
+        border-radius: 50px;
+        border: 1px solid black
+    }
+    .zoomlk .listImage:hover{
+        border:5px solid rgb(74, 107, 255) ;
+    }
+    
+
+}

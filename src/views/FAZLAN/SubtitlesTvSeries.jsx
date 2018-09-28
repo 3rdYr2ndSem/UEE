@@ -64,9 +64,9 @@ export default class SubtitlesTvSeries extends Component{
                     <div className="col-md-9" style={{marginTop:"50px"}}>
                     {
                         testName.map((listItem)=>{
-                            return <Link to="/MainDownload?name=`${listItem.name}`">
+                            return <Link to="/MoviePage">
                                 <div className ="col-md-12 listBox">
-                                    <img src={require(`./images/movies/${listItem.image}`)} className="listImage" alt="image Name" />
+                                    <img src={require(`./images/movies/${listItem.image}`)} className="listImage" alt="" />
                                     <div className="listName">{listItem.name}</div>
                                 </div>
                             </Link>
