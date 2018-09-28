@@ -99,8 +99,8 @@ export default class  Faq extends Component{
 
                             <div className="col-md-9 boxContent">
                                 <h2><mark style={{backgroundColor:"Black",color:"yellow"}}>&nbsp;&nbsp;&nbsp;&nbsp;General&nbsp;&nbsp;&nbsp;&nbsp;</mark></h2>
-                                    <Link to="/GenaralAnswer" style={{ color: '#18048c' }}><h3>How to register with the web site ?</h3></Link>
-                                            <Link to="/SubtitleTVseries" style={{ color: '#18048c' }}><h3>How do I format my posts and messages ?</h3></Link>
+                                    <Link to="/GenaralAnswer" style={{ color: 'navy', textShadow: '1px 1px 0px'  }}><h3>How to register with the web site?</h3></Link>
+                                            <Link to="/SubtitleTVseries" style={{color: 'navy', textShadow: '1px 1px 0px' }}><h3>How do I format my posts and messages ?</h3></Link>
                                         
                                         <button className="btn btn-danger showMoreButton"><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
                             </div> 
@@ -147,8 +147,8 @@ export default class  Faq extends Component{
                         </div> 
                         <div className="col-md-9 boxContent">
                             <h2><mark style={{backgroundColor:"Black",color:"yellow"}}>&nbsp;&nbsp;&nbsp;Subtitles&nbsp;&nbsp;&nbsp;</mark></h2>
-                                    <Link to="/SubAnswer" style={{ color: '#18048c' }}><h3>How to download Subtitles from the web site?</h3></Link>
-                                    <Link to="/SubAnswer" style={{ color: '#18048c' }}><h3>How to register with the web site?</h3></Link>
+                                    <Link to="/SubAnswer" style={{ color: 'navy', textShadow: '1px 1px 0px' }}><h3>How to download Subtitles from the web site?</h3></Link>
+                                    <Link to="/SubAnswer" style={{ color: 'navy', textShadow: '1px 1px 0px' }}><h3>How to register with the web site?</h3></Link>
                         
                                     <button className="btn btn-danger showMoreButton"><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
                         </div> 
@@ -197,8 +197,8 @@ export default class  Faq extends Component{
                         </div> 
                         <div className="col-md-9 boxContent">
                             <h2><mark style={{backgroundColor:"Black",color:"yellow"}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Video&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</mark></h2>
-                                    <Link to="/GenaralAnswer" style={{ color: '#18048c' }}><h3>How to download Videos from the web site?</h3></Link>
-                                    <Link to="/SubtitleTVseries" style={{ color: '#18048c' }}><h3>How to register with the web site?</h3></Link>
+                                    <Link to="/GenaralAnswer" style={{ color: 'navy', textShadow: '1px 1px 0px' }}><h3>How to download Videos from the web site?</h3></Link>
+                                    <Link to="/SubtitleTVseries" style={{ color: 'navy', textShadow: '1px 1px 0px' }}><h3>How to register with the web site?</h3></Link>
                         
                                     <button className="btn btn-danger showMoreButton"><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
                         </div> 
@@ -243,8 +243,8 @@ export default class  Faq extends Component{
                         </div> 
                         <div className="col-md-9 boxContent">
                             <h2><mark style={{backgroundColor:"Black",color:"yellow"}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Audio&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</mark></h2>
-                                    <Link to="/GenaralAnswer" style={{ color: '#18048c' }}><h3>How to download Audios from the web site?</h3></Link>
-                                    <Link to="/SubtitleTVseries" style={{ color: '#18048c' }}><h3>How to register with the web site?</h3></Link>
+                                    <Link to="/GenaralAnswer" style={{ color: 'navy', textShadow: '1px 1px 0px' }}><h3>How to download Audios from the web site?</h3></Link>
+                                    <Link to="/SubtitleTVseries" style={{ color: 'navy', textShadow: '1px 1px 0px' }}><h3>How to register with the web site?</h3></Link>
                         
                                     <button className="btn btn-danger showMoreButton"><i class="fa fa-angle-double-down" aria-hidden="true"></i></button>
                         </div> 
