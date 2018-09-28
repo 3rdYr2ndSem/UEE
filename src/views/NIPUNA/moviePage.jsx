@@ -29,7 +29,13 @@ export default class moviePage extends Component{
                     <div>
                         <span className="fa fa-eye views"></span> <span style = {{fontSize:"15px"}}>12,200</span>
                     </div>
-                    
+                    <br/>
+                    <div>
+                        <h5>Subtitled By : Mohan Chamara</h5>
+                        <h5>Recorrected by : Upul Widana</h5>
+                        <h5>Uploaded by : HEDZ</h5>
+                        <h5>Date : 21-09-2018 @ 7.54 P.M</h5>
+                    </div>
                     
 
                     
@@ -67,9 +73,12 @@ export default class moviePage extends Component{
                          of World's Best Lover.
                     </div>
                     <div className="col-md-12">
-                    <button className="btn btn-success downloadButton center-block"> <i className="fa fa-download"></i> Dowload Subtitles</button>
+                    <button className="btn btn-success downloadButton center-block m-3"> <i className="fa fa-download"></i> Dowload Subtitles</button>
                     </div>
                     <br/>
+                    <div className="col-md-12">
+                    <button className="btn btn-success downloadButton center-block"> <i className="fa fa-download"></i> Dowload Movie</button>
+                    </div>
 
                 </div>
             </div>

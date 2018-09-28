@@ -80,6 +80,7 @@ export default class subtitleMainPage extends Component{
                         
                      </div>
                      </div>
+                     <br/>
 
                      <div id="sidebar" className="col-md-3 table-responsive">
                         <h3 >Browse All Media</h3>
