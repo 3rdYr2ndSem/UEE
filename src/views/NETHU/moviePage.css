@@ -1,0 +1,47 @@
+
+
+.thumbnail{
+    background-color: rgb(255, 255, 255, 0.0);
+    border: none;
+}
+
+.col-lg-3{
+    padding:1%;
+}
+.col2{
+    padding: 0;
+    margin:0;
+    width:25%;
+}
+
+.image2 {
+    transition: .5s ease;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 5px;
+  }
+  .top-header1 h2{
+      color :#6ac045;
+  }
+
+  /*search box */
+.search-box{
+    padding: 5% 20% 2% 20%;
+}
+.form-control{
+    width: 100%;
+}
+
+@media only screen and (max-width: 500px) {
+    .search-box{
+        padding: 1%;
+    }
+    .pagina{
+        display: none;
+    }
+}
+@media only screen and (min-width: 500px) {
+    
+    .pagina2{
+        display: none;
+    }
+}

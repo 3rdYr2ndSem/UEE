@@ -32,6 +32,15 @@ import zoomlkforum from './views/ASHANSA/zoomlkforum'
 import announcements from './views/ASHANSA/announcements'
 import rulescomment from './views/ASHANSA/rulescomment'
 
+import moviePage_ from './views/NETHU/moviePage_'
+import movie from './views/NETHU/movie'
+import login_ from './views/NETHU/login_'
+import Register_ from './views/NETHU/Register_'
+import latestmovie from './views/NETHU/latestmovie'
+import tvseries from './views/NETHU/tvseries'
+import requestmovie from './views/NETHU/requestmovie'
+//import searchmovies from './views/NETHU/searchmovies'
+
 
 export default class App extends Component {
 
@@ -68,6 +77,14 @@ export default class App extends Component {
                       <Route path="/AudioList" exact static component = {AudioList} />
                       <Route path="/OriginalAudioList" exact static component = {OriginalAudio} />
                       <Route path="/MoviePage" exact static component = {moviePage} />
+                      <Route path="/MainDownload" exact static component = {MainDownload} />
+                      <Route path="/moviePage_" exact static component = {moviePage_}/>
+                      <Route path="/movie" exact static component = {movie}/>
+                      <Route path="/login_" exact static component = {login_} />
+                      <Route path="/Register_" exact static component = {Register_} />
+                      <Route path="/latestmovie" exact static component = {latestmovie} />
+                      <Route path="/tvseries" exact static component = {tvseries} />
+                      <Route path="/requestmovie" exact static component = {requestmovie} />
 
                       
                       <Route path="**" exact static component = {Pagenotfound} />

@@ -1,0 +1,14 @@
+.nethu .headertext{
+    
+    font-size: 8px;
+    font-weight: 50px;
+    color: white;
+} 
+
+.nethu .downladedimage{
+    height:400px;
+    width:296px;
+    border: 5px solid white;
+    border-radius: 5px;
+    margin-top:20px
+}
