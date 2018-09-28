@@ -13,32 +13,33 @@ export default class subtitleMainPage extends Component{
         return(
             <div className="nipuna">
                 <div className="col-md-12 ">
-                    <div className="col-md-12">
+                    {/* <div className="col-md-12">
                         <form action="">
                             <div class="form-group" >
                                 <input type="email" className="form-control searchBar" placeholder="Search" />
                             </div>
                         </form> 
-                    </div>
+                    </div> */}
                     
-                    <div className="col-md-9">
+                    <div className="col-md-9 mobileList">
                     <div className="col-md-12">
                         <center>
                         <h3>Recent Movies</h3>
                         </center>
-                        <div className="col-md-3">
+                        
                         <img src={require('./11.jpg')} className="relatedImages relatedImageone " alt=""/>
-                        </div>
-                        <div className="col-md-3">
+                        
+                        
                         <img src={require('./jurassic-world.jpg')} className="relatedImages relatedImageTwo" alt=""/>
-                        </div>
-                        <div className="col-md-3">
+                        
+                        
                         <img src={require('./sicario.jpg')} className="relatedImages relatedImageTree" alt=""/>
-                        </div>
+                        
                         <Link to="/MoviePage">
-                        <div className="col-md-3">
+                    
                         <img src={require('./deadpool.jpg')} className="relatedImages relatedImageFour" alt=""/>
-                        </div>
+                    
+                    
                         </Link>
                      </div>
 
@@ -47,68 +48,52 @@ export default class subtitleMainPage extends Component{
                      <center>
                         <h3>Most Popular Movies</h3>
                         </center>
-                        <div className="col-md-3">
+                        
                         <img src={require('./avatar.jpg')} className="relatedImages relatedImageone " alt=""/>
-                        </div>
-                        <div className="col-md-3">
+                    
+                        
                         <img src={require('./battleship.jpg')} className="relatedImages relatedImageTwo" alt=""/>
-                        </div>
-                        <div className="col-md-3">
+                    
+                    
                         <img src={require('./f&s.jpg')} className="relatedImages relatedImageTree" alt=""/>
-                        </div>
-                        <div className="col-md-3">
+                    
+                        
                         <img src={require('./pradetors.jpg')} className="relatedImages relatedImageFour" alt=""/>
-                        </div>
+                    
                      </div>
 
                      <div className="col-md-12">
                         <center>
                         <h3>Popular Downloads</h3>
                         </center>
-                        <div className="col-md-3">
+                        
                         <img src={require('./infinitywar.jpg')} className="relatedImages relatedImageone " alt=""/>
-                        </div>
-                        <div className="col-md-3">
+                        
+                        
                         <img src={require('./blackpanther.jpg')} className="relatedImages relatedImageTwo" alt=""/>
-                        </div>
-                        <div className="col-md-3">
+                    
+                        
                         <img src={require('./24hours.jpg')} className="relatedImages relatedImageTree" alt=""/>
-                        </div>
-                        <div className="col-md-3">
+                    
+                        
                         <img src={require('./skyscrapper.jpg')} className="relatedImages relatedImageFour" alt=""/>
-                        </div>
+                        
                      </div>
                      </div>
 
-                     <div className="col-md-3 table-responsive">
-                        <h3 >Popular Downloads</h3>
-                        <table class="table table-hover">
-                            <thead>
-                                <tr>
-                                    <th>Test</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr className="table-hover">
-                                    <td><ul><li><a>test</a></li></ul></td>
-                                </tr>
-                                <tr>
-                                    <td><ul><li><a>test</a></li></ul></td>
-                                </tr>
-                                <tr>
-                                    <td><ul><li><a>test</a></li></ul></td>
-                                </tr>
-                                <tr>
-                                    <td><ul><li><a>test</a></li></ul></td>
-                                </tr>
-                                <tr>
-                                    <td><ul><li><a>test</a></li></ul></td>
-                                </tr>
-                                <tr>
-                                    <td><ul><li><a>test</a></li></ul></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                     <div id="sidebar" className="col-md-3 table-responsive">
+                        <h3 >Browse All Media</h3>
+                        <ul class="list-group">
+                            <li class="list-group-item"><a href="#">English Movies</a> <span class="badge">1249</span></li>
+                            <li class="list-group-item"><a href="#">Tamil Movies</a> <span class="badge">480</span></li>
+                            <li class="list-group-item"><a href="#">Hindi Movies</a> <span class="badge">466</span></li>
+                            <li class="list-group-item"><a href="#">Various Movies</a> <span class="badge">133</span></li>
+                            <li class="list-group-item"><a href="#">SINBAD[TV]</a> <span class="badge">6</span></li>
+                            <li class="list-group-item"><a href="#">REVOLUTION[TV]</a> <span class="badge">2</span></li>
+                            <li class="list-group-item"><a href="#">SHERLOCK[TV]</a> <span class="badge">5</span></li>
+                            <li class="list-group-item"><a href="#">ARROW[TV]</a> <span class="badge">7</span></li>
+                            <li class="list-group-item"><a href="#">WALKING DEAD[TV]</a> <span class="badge">8</span></li>
+                        </ul>
                      </div> 
                         
                    

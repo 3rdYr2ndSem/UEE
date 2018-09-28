@@ -50,11 +50,11 @@ export default class moviePage extends Component{
                         </iframe>
                     </div>
                     <div className="col-md-4 ">
-                    <img src={require('./medium-screenshot2.jpg')} className="screenshotOne"/>
+                    <img src={require('./deadpool-scrn-1.jpg')} className="screenshotOne"/>
                     </div>
 
                     <div className="col-md-4">
-                    <img src={require('./medium-screenshot3.jpg')} className="screenshotTwo"/>
+                    <img src={require('./deadpool-scrn-2.jpg')} className="screenshotTwo"/>
                     </div>
 
                     <div className="movieDescription col-md-12" >
@@ -69,6 +69,7 @@ export default class moviePage extends Component{
                     <div className="col-md-12">
                     <button className="btn btn-success downloadButton center-block"> <i className="fa fa-download"></i> Dowload Subtitles</button>
                     </div>
+                    <br/>
 
                 </div>
             </div>
