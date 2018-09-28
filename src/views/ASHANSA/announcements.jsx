@@ -20,17 +20,18 @@ export default class announcements extends Component{
                 <div className="col-md-12 ">
                   <h4><Link to="/Forum">Forum</Link> <span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="zoomlkforum"> Zoom.lk</Link> <span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="announcements"> Announcements</Link></h4>  
                     <div className="col-md-12" style={{marginTop:"50px"}}>
-                    <div class= "row">
+                    
                             <div className ="col-md-12 box">
+                            <div class= "row">
                                 <div className ="col-md-9 ">                                
-                                <span className ="col-md-12 title" >Title </span>
+                                <span className =" title" >Title </span>
                                 </div>
                                 <div className ="col-md-3 ">  
-                               <span className ="col-md-12 post" >Last Post </span>
+                               <span className ="post" >Last Post By </span>
                             </div>
                             </div>
                     </div>
-                        <Link to="/">
+                        <Link to="/rulescomment">
                         <div className ="col-md-12 listBox">
                             <div class="row" >
                                 <div className ="col-md-2 ">
@@ -65,7 +66,7 @@ export default class announcements extends Component{
                                 <img src={require('./title.png')} className="listImage" alt="image Name" />
                                 </div>
                                 <div className ="col-md-10 " >
-                                <span className="Subtitle" >Create Updates </span><br/>
+                                <span className="Subtitle" >Zoom Subtitle Request </span><br/>
                                 <span className="Description" >    Nila 20-09-2018 23:25 P.M. </span>
                                 </div>
                             </div> 
@@ -78,7 +79,7 @@ export default class announcements extends Component{
                                 <img src={require('./title.png')} className="listImage" alt="image Name" />
                                 </div>
                                 <div className ="col-md-10 " >
-                                <span className="Subtitle" >Create Updates </span><br/>
+                                <span className="Subtitle" >Attention All Members </span><br/>
                                 <span className="Description" >    Ben 11-09-2018 11:35 A.M. </span>
                                 </div>
                             </div> 
