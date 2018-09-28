@@ -1,0 +1,128 @@
+
+.nipunaEM .searchBar{
+    height: 50px;
+    width:50%;
+    font-size: 30px;
+    color:Gray;
+    margin:10px 0px -20px 10%
+}
+
+.nipunaEM .relatedImages{
+    height:280px;
+    width:200px;  
+    border:5px solid white ;
+    border-radius: 5px
+ }
+
+ .nipunaEM  .relatedImages:hover{
+    border:5px solid rgb(74, 107, 255) ;
+    height:290px;
+    width:210px;
+ }
+
+ .nipunaEM .relatedImageone{
+    margin: 20px 60px 20px 0px
+}
+
+.nipunaEM .relatedImageTwo{
+    margin: 20px 60px 20px 0px
+    
+}
+
+.nipunaEM .relatedImageTree{
+    margin: 0px 60px 0px 0px
+   
+}   
+
+.nipunaEM .relatedImageFour{
+    margin: 0px 0px 0px 0px
+    
+}
+
+#sidebar{
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.a:link{
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+    
+    .fazlan .listBox{
+        height:90px;
+        width:130%;
+        background-color: #ffffffea;
+        margin: -0px 0px 10px -40px;
+        color:black;
+    }
+    
+    .fazlan .listBox:hover{
+        background-color: black
+    }
+
+    .fazlan .listBox :hover{
+        background-color: red;
+
+    }
+
+    .nipunaEM .listImage {
+        height: 65px;
+        width: 65px; 
+        border-radius: 50px;
+        margin: 14px 0px 0px -10px;
+        border: 1px solid black
+    }
+
+    .nipunaEM .boxAd{
+        background-color:transparent;
+        color:transparent;
+        border:transparent;
+        height:0px;
+    }
+ 
+    .nipunaEM  .searchBar{
+        height: 50px;
+        width:100%;
+        font-size: 30px;
+        color:Gray;
+        margin:0px 0px 0px 0px
+    } 
+
+    .nipunaEM .relatedImages{
+        height:180px;
+        width:100px;  
+        border:5px solid white ;
+        border-radius: 5px
+     }
+
+     .nipunaEM .relatedImageone{
+        margin: 20px 20px 20px 0px
+    }
+    
+    .nipunaEM .relatedImageTwo{
+        margin: 20px 0px 20px 0px
+        
+    }
+    
+    .nipunaEM .relatedImageTree{
+        margin: 20px 0px 0px 0px
+       
+    }   
+    
+    .nipunaEM .relatedImageFour{
+        margin: 20px 0px 0px 20px
+        
+    }
+
+    .nipunaEM .mobileList{
+        width: 100%
+    }
+
+    .nipunaEM  .relatedImages:hover{
+        border:3px solid rgb(74, 107, 255) ;
+        height:180px;
+        width:100px;
+     }
+}

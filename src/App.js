@@ -21,6 +21,7 @@ import AudioList from './views/FAZLAN/AudioList'
 import OriginalAudio from './views/FAZLAN/OriginalAudio'
 
 import moviePage from './views/NIPUNA/moviePage'
+import englishMoviePg from './views/NIPUNA/englishMoviePage'
 
 import genaralLink1 from './views/NIPUNI/genaralLink1'
 import subtitlesLink1 from './views/NIPUNI/subtitlesLink1'
@@ -57,6 +58,7 @@ export default class App extends Component {
                       <Route path="/zoomlkforum" exact static component = {zoomlkforum} />
                       <Route path="/announcements" exact static component = {announcements} />
                       <Route path="/rulescomment" exact static component = {rulescomment} />
+                      <Route path="/englishMoviePage" exact static component = {englishMoviePg}/>
 
                       <Route path="/GenaralAnswer" exact static component = {genaralLink1} />
                       <Route path="/SubAnswer" exact static component = {subtitlesLink1} />
