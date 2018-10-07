@@ -62,7 +62,7 @@ export default class Header extends Component {
                     <NavLink to="/Downloads" style={{marginTop:"20px"}}>Downloads</NavLink>
                     <NavLink to="Subtitles" style={{marginTop:"20px"}}>Subtitles</NavLink>
                     <NavLink to="Forum" style={{marginTop:"20px"}}>Forum</NavLink>
-                    <NavLink to="Faq" style={{marginTop:"20px"}}>Faq</NavLink>
+                    <NavLink to="Faq" style={{marginTop:"20px"}}>FAQ</NavLink>
                     <a to="javascript:void(0);" className="icon" onClick={()=>this.myFunction()}>
                         <i className="fa fa-bars"></i>
                     </a>
