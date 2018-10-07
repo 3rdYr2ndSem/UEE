@@ -20,44 +20,45 @@ export default class Home extends Component{
 {/*1st row start here*/}
                 <div className="row">
                 <hr />
-                    <div className="col-sm-6 col-md-3 col-xs-6 container2"> 
+                <div className="col-sm-6 col-md-3 col-xs-6 container2"> 
                         
-                            <div className="thumbnail">
-                                <img src={require('./d8.jpg')} className="image2 img-responsive" alt=""/>
-                                <div className="caption">
-                                    <div className="middle2">
-                                        <div className="text2">
-                                            <h3>10/10<br /><br />Action Crime</h3><br />
-                                            <button type="button" className="btn btn-vdetails">View Details</button>
-                                        </div>
-                                        
+                        <div className="thumbnail">
+                            <img src={require('./d8.jpg')} className="image2 img-responsive" alt=""/>
+                            <div className="caption">
+                                <div className="middle2">
+                                    <div className="text2">
+                                        <h3>10/10<br /><br />Action Crime</h3><br />
+                                        <button type="button" className="btn btn-vdetails">View Details</button>
                                     </div>
-                                    <h4>Lampoon's Vacation</h4>
-                                    <h6>2017</h6>
                                     
                                 </div>
+                                <h4>Lampoon's Vacation</h4>
                                 
-                        </div>
+                            </div>
+                            
                     </div>
+                </div>
 
-                    <div className="col-sm-6 col-md-3 col-xs-6 container2"> 
-                        
-                            <div className="thumbnail">
-                                <img src={require('./d9.jpg')} className="image2 img-responsive" alt=""/>
-                                <div className="caption">
-                                    <div className="middle2">
-                                        <div className="text2">
-                                            <h3>10/10<br /><br />Action Crime</h3><br />
-                                            <button type="button" className="btn btn-vdetails">View Details</button>
-                                        </div>
-                                        
+                <div className="col-sm-6 col-md-3 col-xs-6 container2"> 
+                    
+                        <div className="thumbnail">
+                        <Link to = "/MoviePage">
+                            <img src={require('./d9.jpg')} className="image2 img-responsive" alt=""/>
+                            <div className="caption">
+                                <div className="middle2">
+                                    <div className="text2">
+                                        <h3>10/10<br /><br />Action Crime</h3><br />
+                                        <button type="button" className="btn btn-vdetails">View Details</button>
                                     </div>
-                                    <h4>Deadpool 2</h4>
-                                    <h6>2017</h6>
+                                    
                                 </div>
-                                
-                        </div>
+                                <h4>Deadpool 2</h4>
+                                <h6>2017</h6>
+                            </div>
+                            </Link>
+                            
                     </div>
+                </div>
 
                     <div className="col-sm-6 col-md-3 col-xs-6 container2"> 
                         

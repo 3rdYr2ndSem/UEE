@@ -11,7 +11,7 @@ export default class Footer extends Component {
           <div style={{padding:"0px 0px 50px 0px"}} >
             <div className="col-md-9"> 
                 <h3>Zoom.lk</h3>
-                <p>zoom.lk is </p>
+                <p>zoom.lk is facilitate to download subtitles, videos and audios in speed with high quality.</p>
             </div>
           </div>
 
