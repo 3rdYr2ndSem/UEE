@@ -23,7 +23,7 @@ export default class subtitleMainPage extends Component{
                     
                     <div className="col-md-12 mobileList">
                     <center>
-                    <div className="col-md-12">
+                    <div className="col-sm-12">
                         <center>
                         <h3>English Movies with Sinhala Subtitles</h3>
                         </center>

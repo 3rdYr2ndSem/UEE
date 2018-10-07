@@ -26,12 +26,10 @@ export default class subtitleMainPage extends Component{
                         <center>
                         <h3>Recent Movies</h3>
                         </center>
-                        
+                    
                         <img src={require('./11.jpg')} className="relatedImages relatedImageone " alt=""/>
                         
-                        
                         <img src={require('./jurassic-world.jpg')} className="relatedImages relatedImageTwo" alt=""/>
-                        
                         
                         <img src={require('./sicario.jpg')} className="relatedImages relatedImageTree" alt=""/>
                         
