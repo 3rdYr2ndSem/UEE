@@ -1,0 +1,315 @@
+/*hover css*/
+/*
+container2{
+    background-color: red;
+}
+*/
+.image2 {
+  transition: .5s ease;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.middle2 {
+    position: relative;
+    width: 100%;
+    
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container2:hover .image2 {
+  opacity: 0.5;
+  border-color: rgb(90, 255, 90);
+}
+
+.container2:hover .middle2 {
+  opacity: 1;
+}
+
+.text2 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: bolder;
+  padding: 16px 32px;
+}
+.caption h4{
+    font-size: 1vw;
+}
+
+
+/* edit boostarp*/
+.thumbnail{
+    background-color: rgb(255, 255, 255, 0.0);
+    border: none;
+}
+.btn:hover{
+    color:#fff; 
+    background-color: rgb(1, 102, 1);
+}
+.caption h4,h6{
+    color:#fff;
+}
+/*own css */
+.btn-vdetails{
+    font-size: 1em;
+    background-color: rgb(90, 255, 90);
+}
+h2{
+    padding:0;
+    margin:0;
+}
+
+@media only screen and (max-width: 500px) {
+    h2{
+        font-size: 4.5vw;
+    }
+    .middle2 {
+        display: none;
+    }
+    .top-header2{
+        display: none;
+    }
+    .top-header1 h1{
+        font-size: 2em;
+    }
+    .caption h4{
+        font-size: 3.8vw;
+    }
+    
+}
+
+.textdesign2:hover{
+    color:rgb(192, 212, 5);
+    text-decoration:none;
+}
+/*end hover css */ 
+/*
+.nethu .listImage{
+    margin-top: 10px;
+    height:80px;
+    width:80px; 
+    border-radius: 50px
+}
+
+.nethu .relatedImageone{
+    margin: 0px 60px 60px 0px
+}
+
+.nethu .relatedImageTwo{
+    margin: 0px 0px 20px 0px
+    
+}
+.nethu .relatedImages{
+    height:300px;
+    width:230px;  
+    border:5px solid white ;
+    border-radius: 5px
+ }
+
+ .nethu  .relatedImages:hover{
+    border:5px solid rgb(74, 255, 98)
+ }
+ .nethu .relatedImageTree{
+    margin: 0px 20px 0px 0px
+   
+}   
+
+.nethu .relatedImageFour{
+    margin: 0px 0px 0px 0px
+    
+}
+
+
+.nethu .textdesign{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 50px;
+} 
+
+.nethu .textdesign1{
+    text-align: left;
+    font-size: 80px;
+    font-weight: 50px;
+}  
+
+.nethu .textdesign2{
+    text-align: right;
+    font-size: 80px;
+    font-weight: 50px;
+    color: lightgreen;
+} 
+
+.nethu .Stars{
+    font-size:30px;
+    width:35px;
+    
+}
+
+.nethu .starChecked{
+    color:gold;
+}
+
+.nethu .allStar{
+    margin: 20px 80px 0px 0px
+}
+
+.nethu .ButtonDefault{
+    margin:0px 0px 0px 0px;
+}
+.nethu .textdiv{
+    position:absolute;
+    font-size: 20px;
+    top:23.7em;
+    left:9.7em;
+    width: 250px;
+}
+.nethu .textdiv1{
+    position:absolute;
+    font-size: 20px;
+    top:23.7em;
+    left:24.3em;
+    width: 250px;
+}
+.nethu .textdiv2{
+    position:absolute;
+    font-size: 20px;
+    top:23.7em;
+    left:39em;
+    width: 250px;
+}
+.nethu .textdiv3{
+    position:absolute;
+    font-size: 20px;
+    top:23.7em;
+    left:53.7em;
+    width: 250px;
+}
+.nethu .textdiv4{
+    position:absolute;
+    font-size: 20px;
+    top:46em;
+    left:9.7em;
+    width: 250px;
+}
+.nethu .textdiv5{
+    position:absolute;
+    font-size: 20px;
+    top:46em;
+    left:24.3em;
+    width: 250px;
+}
+.nethu .textdiv6{
+    position:absolute;
+    font-size: 20px;
+    top:46em;
+    left:39em;
+    width: 250px;
+}
+.nethu .textdiv7{
+    position:absolute;
+    font-size: 20px;
+    top:46em;
+    left:53.7em;
+    width: 250px;
+}
+.nethu .textdiv8{
+    position:absolute;
+    font-size: 20px;
+    top:64em;
+    left:9.7em;
+    width: 250px;
+}
+.nethu .textdiv9{
+    position:absolute;
+    font-size: 20px;
+    top:64em;
+    left:24.3em;
+    width: 250px;
+}
+.nethu .textdiv10{
+    position:absolute;
+    font-size: 20px;
+    top:64em;
+    left:39em;
+    width: 250px;
+}
+.nethu .textdiv11{
+    position:absolute;
+    font-size: 20px;
+    top:64em;
+    left:53.7em;
+    width: 250px;
+}
+.nethu .textdiv12{
+    position:absolute;
+    font-size: 20px;
+    top:84.9em;
+    left:9.7em;
+    width: 250px;
+}
+.nethu .textdiv13{
+    position:absolute;
+    font-size: 20px;
+    top:84.9em;
+    left:24.3em;
+    width: 250px;
+}
+.nethu .textdiv14{
+    position:absolute;
+    font-size: 20px;
+    top:84.9em;
+    left:39em;
+    width: 250px;
+}
+.nethu .textdiv15{
+    position:absolute;
+    font-size: 20px;
+    top:84.9em;
+    left:53.7em;
+    width: 2;
+}
+.nethu .latestmovie{
+    position:absolute;
+    font-size: 20px;
+    top:23.7em;
+    left:9.7em;
+    width: 250px;
+}
+@media only screen and (max-width: 500px) {
+
+    .nethu .relatedImages{
+        height: 200px;
+        width:150px;  
+        border:5px solid white ;
+        border-radius: 5px
+     }
+     .nethu .relatedImageone{
+        margin: 0px 30px 30px 0px
+    }
+    .nethu  .relatedImages:hover{
+        border:5px solid rgb(74, 255, 98)
+     }
+    .nethu .textdiv{
+        position:absolute;
+        font-size: 20px;
+        top:23.11em;
+        left:1.5em;
+        width: 250px;
+    }
+    .nethu .textdiv1{
+        position:absolute;
+        font-size: 20px;
+        top:23.11em;
+        left:10em;
+        width: 250px;
+    }
+
+}
+*/

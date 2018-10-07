@@ -1,0 +1,32 @@
+
+.login_container{
+    padding:2% 50% 10% 2%; 
+    
+}
+.login_container h2{
+    color: #6ac045;
+}
+.abc h4{
+    color: #6ac045;
+}
+h4{
+    padding: 0;
+    margin: 0;  
+}
+
+.close-btn{
+    padding-top: 0px;
+    background-color: #6ac045;
+}
+
+.btn-vdetails{
+    color:#fff;
+    background-color: #6ac045;
+}
+
+.btn-vdetails:hover{
+    background-color: rgb(1, 102, 1);
+}
+.textdesign3 h4:hover{
+    color: rgb(1, 102, 1);
+}

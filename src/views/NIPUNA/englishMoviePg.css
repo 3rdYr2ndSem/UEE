@@ -1,26 +1,5 @@
 
-
-.fazlan .listBox{
-
-    height:100px;
-    width:100%;
-    background-color: #ffffffea;
-    margin: 0px 0px 10px 0px;
-    color:black
-}
-
-.fazlan .listBox:hover{
-    margin:10px
-}
-
-.fazlan .listImage{
-    margin-top: 10px;
-    height:80px;
-    width:80px; 
-    border-radius: 50px
-}
-
-.nipuna .searchBar{
+.nipunaEM .searchBar{
     height: 50px;
     width:50%;
     font-size: 30px;
@@ -28,41 +7,34 @@
     margin:10px 0px -20px 10%
 }
 
-.fazlan .boxAd{
-   height:900px;
-   width:20%;
-   background-color: rgba(255, 255, 255, 0.521);
-   margin:50px 0px 0px 30px;
-}
-
-.nipuna .relatedImages{
+.nipunaEM .relatedImages{
     height:280px;
     width:200px;  
     border:5px solid white ;
     border-radius: 5px
  }
 
- .nipuna  .relatedImages:hover{
+ .nipunaEM  .relatedImages:hover{
     border:5px solid rgb(74, 107, 255) ;
     height:290px;
     width:210px;
  }
 
- .nipuna .relatedImageone{
-    margin: 20px 20px 20px 0px
+ .nipunaEM .relatedImageone{
+    margin: 20px 60px 20px 0px
 }
 
-.nipuna .relatedImageTwo{
-    margin: 20px 20px 20px 0px
+.nipunaEM .relatedImageTwo{
+    margin: 20px 60px 20px 0px
     
 }
 
-.nipuna .relatedImageTree{
-    margin: 0px 20px 0px 0px
+.nipunaEM .relatedImageTree{
+    margin: 0px 60px 0px 0px
    
 }   
 
-.nipuna .relatedImageFour{
+.nipunaEM .relatedImageFour{
     margin: 0px 0px 0px 0px
     
 }
@@ -95,7 +67,7 @@
 
     }
 
-    .nipuna .listImage {
+    .nipunaEM .listImage {
         height: 65px;
         width: 65px; 
         border-radius: 50px;
@@ -103,14 +75,14 @@
         border: 1px solid black
     }
 
-    .fazlan .boxAd{
+    .nipunaEM .boxAd{
         background-color:transparent;
         color:transparent;
         border:transparent;
         height:0px;
     }
  
-    .nipuna  .searchBar{
+    .nipunaEM  .searchBar{
         height: 50px;
         width:100%;
         font-size: 30px;
@@ -118,37 +90,37 @@
         margin:0px 0px 0px 0px
     } 
 
-    .nipuna .relatedImages{
-        height:170px;
+    .nipunaEM .relatedImages{
+        height:160px;
         width:100px;  
         border:5px solid white ;
         border-radius: 5px
      }
 
-     .nipuna .relatedImageone{
+     .nipunaEM .relatedImageone{
         margin: 20px 40px 20px 0px
     }
     
-    .nipuna .relatedImageTwo{
+    .nipunaEM .relatedImageTwo{
         margin: 20px 0px 20px 0px
         
     }
     
-    .nipuna .relatedImageTree{
-        margin: 20px 20px 0px 0px
+    .nipunaEM .relatedImageTree{
+        margin: 20px 20px 20px 0px
        
     }   
     
-    .nipuna .relatedImageFour{
-        margin: 20px 0px 0px 20px
+    .nipunaEM .relatedImageFour{
+        margin: 0px 0px 0px 20px
         
     }
 
-    .nipuna .mobileList{
+    .nipunaEM .mobileList{
         width: 100%
     }
 
-    .nipuna  .relatedImages:hover{
+    .nipunaEM  .relatedImages:hover{
         border:3px solid rgb(74, 107, 255) ;
         height:180px;
         width:100px;
