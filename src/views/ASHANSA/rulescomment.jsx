@@ -29,7 +29,7 @@ export default class rulescomment  extends Component{
                             Please make sure you read the forum guidelines
                             </div>
                             <ul>
-                                <button data-toggle="modal" data-target="#myModal3" className="btn btn-success ReplyButton" style={{color:"black"}}><i class="fa fa-reply" aria-hidden="true"></i> Add New Reply </button>
+                                <button data-toggle="modal" data-target="#myModal3" className="btn btn-success ReplyButton" style={{color:"black"}}><i class="fa fa-reply" aria-hidden="true"></i> Reply </button>
                                  <Popup />
                             </ul>                        
                      </div> 
@@ -51,7 +51,7 @@ export default class rulescomment  extends Component{
                             
                             </div>                        
                             <ul>
-                                <button data-toggle="modal" data-target="#myModal3" className="btn btn-success ReplyButton" style={{color:"black"}}><i class="fa fa-reply" aria-hidden="true"></i> Add New Reply </button>
+                                <button data-toggle="modal" data-target="#myModal3" className="btn btn-success ReplyButton" style={{color:"black"}}><i class="fa fa-reply" aria-hidden="true"></i> Reply </button>
                                  <Popup />
                             </ul>
                          </div> 
@@ -74,7 +74,7 @@ export default class rulescomment  extends Component{
                                 </div> 
 
                              <ul>
-                                <button data-toggle="modal" data-target="#myModal3" className="btn btn-success ReplyButton" style={{color:"black"}}><i class="fa fa-reply" aria-hidden="true"></i> Add New Reply </button>
+                                <button data-toggle="modal" data-target="#myModal3" className="btn btn-success ReplyButton" style={{color:"black"}}><i class="fa fa-reply" aria-hidden="true"></i>  Reply </button>
                                  <Popup />
                             </ul>
                             </div> 

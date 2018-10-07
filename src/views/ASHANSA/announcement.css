@@ -2,7 +2,7 @@
 
     height:100%;
     width:100%;
-    background-color: #d1e075;
+    background-color: #ffffffea;
     margin: 0px 0px 10px 0px;
     color:black
 }
@@ -14,11 +14,11 @@
 }
 
 .zoomlk .box{
-    background-color: #3d700f;
-    height:50px;
-    width: 98%;
-    border:2px solid #062e01 ;
-    margin:10px 0px 10px 10px;
+    background-color: #7ba0f1;
+    height:100%;
+    width:100%;
+    border:2px solid #01112e ;
+    margin:10px 10px 10px 0px;
     color:black;
     
     
@@ -66,7 +66,7 @@
     .zoomlk .listBox{
         height:100%;
         width:100%;
-        background-color: #d1e075;
+        background-color: #ffffffea;
         margin: -0px 0px 10px 0px;
         color:black;
     }
@@ -79,11 +79,11 @@
 
     
     .zoomlk .box{
-        background-color: #3d700f;
+        background-color: #7ba0f1;
         height:50px;
-        width: 95%;
-        border:2px solid #062e01 ;
-        margin:10px 15px 10px 10px;
+        width: 100%;
+        border:2px solid #01112e ;
+        margin:10px 15px 10px 0px;
         color:black;
         
         
