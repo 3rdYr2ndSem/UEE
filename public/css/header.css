@@ -37,6 +37,25 @@
       margin:0px 20px 0px 0px;
 
   }
+  .modal-body{
+    background-color: #333;
+    color: #fff;
+    background-image: url("https://sf.co.ua/14/03/wallpaper-1985538.jpg")
+  }
+  .modal-body h4{
+    color: #6ac045;
+  }
+  .btn-custom2{
+    background-color: #6ac045;
+  }
+  .close-btn{
+    position: relative;
+    float:right;
+    
+  }
+  .row-padding{
+    padding: 10px;
+  }
   
   @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-
+import './loginmodel.css';
 export default class Login extends Component{
 
     render(){
@@ -7,12 +7,14 @@ export default class Login extends Component{
             <div id="myModal2" className="modal fade" role="dialog" style={{color:"black"}}>
                     <div className="modal-dialog">
                         <div className="modal-content">
-                        <div className="modal-header">
-                            <button type="button" className="close" data-dismiss="modal">&times;</button>
-                            <h4 className="modal-title">Login</h4>
-                        </div>
+                        
+                            
+                            
+                        
 
                         <div className="modal-body">
+                        <h4 className="modal-title">Login</h4>
+                        <hr />
                         <form >
                                 <div className="form-group">
                                     <label htmlFor="exampleInputEmail1">Email address</label>
@@ -23,12 +25,17 @@ export default class Login extends Component{
                                     <label htmlFor="exampleInputPassword1">Password</label>
                                     <input type="password" className="form-control" placeholder="Password" />
                                 </div>
-                                <button type="submit" className="btn btn-primary">Submit</button>
+                                <div className="row row-padding">
+                                        <button type="submit" className="btn btn-custom2">Submit</button>
+                                    <div className="close-btn">
+                                        <button type="button" className="btn btn-custom2" data-dismiss="modal">Close</button>
+                                        </div>
+                                </div>
                             </form>
                         </div>
-                        <div className="modal-footer">
-                            <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+                        
+                            
+                        
                         </div>
                     </div>
                 </div>
