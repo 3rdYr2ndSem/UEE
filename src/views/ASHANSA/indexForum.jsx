@@ -10,6 +10,12 @@ export default class indexForum extends Component{
         return (
             <div className="Forummain">
             <h4>Forum</h4>
+            <br/>
+            <div>
+                <center>
+            <h1>You can share your thought with us</h1>
+                </center>
+            </div>
                 <div className="col-md-12 ">
                 <Link to="/zoomlkforum">
                     <div className="col-md-12 "onMouseOver="showText('Announcements')">
