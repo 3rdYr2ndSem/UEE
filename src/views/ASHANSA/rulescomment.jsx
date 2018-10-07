@@ -8,7 +8,7 @@ export default class rulescomment  extends Component{
         return(
             <div className="Forummain">
                 <div className="col-md-12">
-                <h4><Link to="/Forum">Forum</Link> <span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="zoomlkforum"> Zoom.lk</Link> <span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="announcements"> Announcements</Link><span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="rulescomment"> Forum Rules and Guidelines</Link></h4>  
+                <h4><Link to="/Forum" style={{color:"white"}}>Forum</Link> <span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="zoomlkforum" style={{color:"white"}}> Zoom.lk</Link> <span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="announcements" style={{color:"white"}}> Announcements</Link><span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="rulescomment" style={{color:"white"}}> Forum Rules and Guidelines</Link></h4>  
                 <div >
                     <ul>
                  <button data-toggle="modal" data-target="#myModal3" className="btn btn-success downloadButton" style={{color:"black"}}><i class="fa fa-plus-square" aria-hidden="true"></i> Add New Comment </button>

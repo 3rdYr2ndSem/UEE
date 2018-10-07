@@ -18,7 +18,7 @@ export default class zoomlkforum extends Component{
         return(
             <div className="zoomlk">
                 <div className="col-md-12 ">
-                  <div><h4><Link to="/Forum">Forum</Link> <span  class="fa fa-arrow-right" aria-hidden="true"> </span><Link to="/zoomlkforum"> Zoom.lk</Link></h4></div>  
+                  <div><h4><Link to="/Forum" style={{color:"white"}}>Forum</Link> <span  class="fa fa-arrow-right" aria-hidden="true"> </span><Link to="/zoomlkforum" style={{color:"white"}}> Zoom.lk</Link></h4></div>  
                     <div className="col-md-12" style={{marginTop:"50px"}}>
                         
                         <Link to="/announcements">

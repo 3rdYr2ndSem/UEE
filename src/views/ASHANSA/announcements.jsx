@@ -18,7 +18,7 @@ export default class announcements extends Component{
         return(
             <div className="zoomlk">
                 <div className="col-md-12 ">
-                  <h4><Link to="/Forum">Forum</Link> <span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="zoomlkforum"> Zoom.lk</Link> <span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="announcements"> Announcements</Link></h4>  
+                  <h4><Link to="/Forum" style={{color:"white"}}>Forum</Link> <span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="zoomlkforum" style={{color:"white"}}> Zoom.lk</Link> <span  class="fa fa-arrow-right" aria-hidden="true"></span><Link to="announcements" style={{color:"white"}}> Announcements</Link></h4>  
                     <div className="col-md-12" style={{marginTop:"50px"}}>
                     
                             <div className ="col-md-12 box">
